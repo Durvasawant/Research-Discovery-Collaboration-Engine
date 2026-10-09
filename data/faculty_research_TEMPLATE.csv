@@ -1,0 +1,3 @@
+faculty_id,faculty_name,department,research_interests,paper_title,abstract,keywords,areas
+F01,Dr. Example One,Computer Science,"natural language processing, information extraction",Title of paper 1,Abstract text of paper 1.,NER; BERT; transformers,NLP
+F01,Dr. Example One,Computer Science,"natural language processing, information extraction",Title of paper 2,Abstract text of paper 2.,information extraction; relation extraction,NLP

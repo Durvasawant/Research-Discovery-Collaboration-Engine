@@ -1,0 +1,4 @@
+embedder: LSA-fallback
+plain       n=16 {'tfidf': (0.73, 0.85), 'bm25': (0.75, 0.88), 'embedding': (0.77, 0.88), 'hybrid': (0.77, 0.88)} (strict P@3, nDCG@3)
+trap        n= 8 {'tfidf': (0.25, 0.42), 'bm25': (0.33, 0.48), 'embedding': (0.42, 0.58), 'hybrid': (0.42, 0.57)} (strict P@3, nDCG@3)
+paraphrase  n= 8 {'tfidf': (0.62, 0.72), 'bm25': (0.58, 0.74), 'embedding': (0.62, 0.76), 'hybrid': (0.62, 0.76)} (strict P@3, nDCG@3)

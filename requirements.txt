@@ -1,0 +1,17 @@
+# core (everything in src/ and the evaluation runs on these)
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+networkx>=3.0
+matplotlib>=3.7
+
+# improved approach (real transformer embeddings). Without it the engine falls back to LSA and says so.
+sentence-transformers>=2.7
+
+# optional: better lemmatisation / general NER      (python -m spacy download en_core_web_sm)
+spacy>=3.7
+
+# optional: REST API + demo UI (a dependency-free server is also provided: python -m src.api.simple_server)
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.33

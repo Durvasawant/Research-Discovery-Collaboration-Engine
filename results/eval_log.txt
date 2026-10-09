@@ -1,0 +1,47 @@
+DATA=SYNTHETIC | EMBEDDER=LSA-fallback | relevance=pairs:/home/claude/SNLP-PROJECT/data/sample_relevance_pairs.csv | queries dev/test=16/16
+!! SYNTHETIC DATA: numbers below are for pipeline validation only, NOT final results.
+!! No transformer available: 'embedding' rows are LSA, not transformer embeddings.
+alpha tuning on DEV (nDCG@3): {0.0: 0.731, 0.2: 0.734, 0.4: 0.771, 0.5: 0.801, 0.6: 0.801, 0.8: 0.805, 1.0: 0.805} -> alpha = 0.8
+
+TEST  relevant>=1 (related or partially related)
+                               P@1    R@1 nDCG@1    P@3    R@3 nDCG@3    P@5    R@5 nDCG@5    MRR    MAP n_queries
+tfidf (baseline)              1.0  0.101   0.75  0.875  0.262  0.691    0.8  0.391  0.742    1.0   0.79        16
+bm25                        0.938  0.096  0.854  0.917   0.28  0.752   0.85  0.423  0.804  0.969  0.817        16
+embedding (concat profile)    1.0  0.101  0.792  0.875   0.26  0.732  0.838  0.412   0.78    1.0  0.769        16
+embedding (mean of docs)      1.0  0.101  0.875  0.875  0.262  0.745  0.775  0.378  0.758    1.0   0.72        16
+hybrid (alpha=0.8)            1.0  0.101  0.875  0.854  0.257   0.74  0.775  0.376  0.759    1.0  0.733        16
+
+TEST  relevant==2 (strict)
+                               P@1    R@1 nDCG@1    P@3    R@3 nDCG@3    P@5    R@5 nDCG@5    MRR    MAP n_queries
+tfidf (baseline)            0.625  0.208   0.75  0.562  0.562  0.691  0.425  0.708  0.742  0.788  0.645        16
+bm25                        0.812  0.271  0.854  0.625  0.625  0.752  0.463  0.771  0.804  0.884   0.72        16
+embedding (concat profile)  0.688  0.229  0.792  0.625  0.625  0.732   0.45   0.75   0.78  0.809  0.687        16
+embedding (mean of docs)    0.812  0.271  0.875  0.625  0.625  0.745  0.425  0.708  0.758  0.882  0.694        16
+hybrid (alpha=0.8)          0.812  0.271  0.875  0.625  0.625   0.74  0.425  0.708  0.759  0.882  0.698        16
+
+ROBUSTNESS (TEST)
+                              P@3    R@3  nDCG@3    MRR
+profile_text    method                                
+full            tfidf      0.875  0.262   0.691  1.000
+                embedding  0.875  0.262   0.745  1.000
+                hybrid     0.854  0.257   0.740  1.000
+titles_keywords tfidf      0.979  0.299   0.792  1.000
+                embedding  0.958  0.290   0.773  1.000
+                hybrid     0.979  0.299   0.785  1.000
+interests_only  tfidf      0.562  0.164   0.488  0.859
+                embedding  0.562  0.164   0.475  0.891
+                hybrid     0.562  0.170   0.484  0.880
+
+Keyword hit rate vs author keywords: {'tfidf': 0.855, 'embedding (MMR)': 0.551}
+Topics: k = 6 NPMI = 0.6158
+
+11 unrelated researchers appear in a top-3 list; worst:
+   query wrong_match  hybrid_score                                                                        shared_terms                                                                              likely_cause
+0   F31         F23         0.474  neural network, embedding neural, learning embedding, network benchmark, benchmark  both lexical and semantic signals mislead (shared generic ML vocabulary / bridge topics)
+1   F23         F31         0.474  neural network, embedding neural, learning embedding, network benchmark, benchmark  both lexical and semantic signals mislead (shared generic ML vocabulary / bridge topics)
+2   F19         F31         0.454       neural network, learning embedding, network benchmark, embedding neural, deep  both lexical and semantic signals mislead (shared generic ML vocabulary / bridge topics)
+3   F31         F19         0.454       neural network, learning embedding, network benchmark, embedding neural, deep  both lexical and semantic signals mislead (shared generic ML vocabulary / bridge topics)
+4   F07         F23         0.453  neural network, embedding neural, learning embedding, network benchmark, embedding  both lexical and semantic signals mislead (shared generic ML vocabulary / bridge topics)
+5   F19         F07         0.452  neural network, network benchmark, embedding neural, learning embedding, embedding  both lexical and semantic signals mislead (shared generic ML vocabulary / bridge topics)
+
+Saved results to /home/claude/SNLP-PROJECT/results

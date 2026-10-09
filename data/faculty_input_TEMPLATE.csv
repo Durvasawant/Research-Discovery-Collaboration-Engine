@@ -1,0 +1,3 @@
+faculty_id,faculty_name,department,research_interests,openalex_author_id
+F01,Dr. Example One,Computer Science,"natural language processing, information extraction",A0000000000
+F02,Dr. Example Two,Information Technology,"cybersecurity, anomaly detection",
