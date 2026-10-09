@@ -1,0 +1,386 @@
+{
+  "banner": "DATA=SYNTHETIC | EMBEDDER=LSA-fallback | relevance=pairs:/home/claude/SNLP-PROJECT/data/sample_relevance_pairs.csv | queries dev/test=16/16",
+  "dataset": {
+    "faculty": 32,
+    "paper_rows": 96,
+    "departments": 5,
+    "papers_per_faculty_mean": 3.0,
+    "abstract_words_mean": 21.2,
+    "abstract_words_min": 9,
+    "abstract_words_max": 51,
+    "empty_abstracts": 0,
+    "empty_keywords": 0
+  },
+  "alpha_tuning_dev": {
+    "0.0": 0.731,
+    "0.2": 0.734,
+    "0.4": 0.771,
+    "0.5": 0.801,
+    "0.6": 0.801,
+    "0.8": 0.805,
+    "1.0": 0.805
+  },
+  "best_alpha": 0.8,
+  "test_relevant>=1 (related or partially related)": [
+    {
+      "index": "tfidf (baseline)",
+      "P@1": 1.0,
+      "R@1": 0.101,
+      "nDCG@1": 0.75,
+      "P@3": 0.875,
+      "P@3_CI95": "[0.77, 0.96]",
+      "R@3": 0.262,
+      "nDCG@3": 0.691,
+      "nDCG@3_CI95": "[0.60, 0.78]",
+      "P@5": 0.8,
+      "R@5": 0.391,
+      "nDCG@5": 0.742,
+      "MRR": 1.0,
+      "MRR_CI95": "[1.00, 1.00]",
+      "MAP": 0.79,
+      "n_queries": 16
+    },
+    {
+      "index": "bm25",
+      "P@1": 0.938,
+      "R@1": 0.096,
+      "nDCG@1": 0.854,
+      "P@3": 0.917,
+      "P@3_CI95": "[0.81, 1.00]",
+      "R@3": 0.28,
+      "nDCG@3": 0.752,
+      "nDCG@3_CI95": "[0.65, 0.84]",
+      "P@5": 0.85,
+      "R@5": 0.423,
+      "nDCG@5": 0.804,
+      "MRR": 0.969,
+      "MRR_CI95": "[0.91, 1.00]",
+      "MAP": 0.817,
+      "n_queries": 16
+    },
+    {
+      "index": "embedding (concat profile)",
+      "P@1": 1.0,
+      "R@1": 0.101,
+      "nDCG@1": 0.792,
+      "P@3": 0.875,
+      "P@3_CI95": "[0.77, 0.96]",
+      "R@3": 0.26,
+      "nDCG@3": 0.732,
+      "nDCG@3_CI95": "[0.64, 0.82]",
+      "P@5": 0.838,
+      "R@5": 0.412,
+      "nDCG@5": 0.78,
+      "MRR": 1.0,
+      "MRR_CI95": "[1.00, 1.00]",
+      "MAP": 0.769,
+      "n_queries": 16
+    },
+    {
+      "index": "embedding (mean of docs)",
+      "P@1": 1.0,
+      "R@1": 0.101,
+      "nDCG@1": 0.875,
+      "P@3": 0.875,
+      "P@3_CI95": "[0.77, 0.96]",
+      "R@3": 0.262,
+      "nDCG@3": 0.745,
+      "nDCG@3_CI95": "[0.65, 0.84]",
+      "P@5": 0.775,
+      "R@5": 0.378,
+      "nDCG@5": 0.758,
+      "MRR": 1.0,
+      "MRR_CI95": "[1.00, 1.00]",
+      "MAP": 0.72,
+      "n_queries": 16
+    },
+    {
+      "index": "hybrid (alpha=0.8)",
+      "P@1": 1.0,
+      "R@1": 0.101,
+      "nDCG@1": 0.875,
+      "P@3": 0.854,
+      "P@3_CI95": "[0.73, 0.96]",
+      "R@3": 0.257,
+      "nDCG@3": 0.74,
+      "nDCG@3_CI95": "[0.64, 0.83]",
+      "P@5": 0.775,
+      "R@5": 0.376,
+      "nDCG@5": 0.759,
+      "MRR": 1.0,
+      "MRR_CI95": "[1.00, 1.00]",
+      "MAP": 0.733,
+      "n_queries": 16
+    }
+  ],
+  "test_relevant==2 (strict)": [
+    {
+      "index": "tfidf (baseline)",
+      "P@1": 0.625,
+      "R@1": 0.208,
+      "nDCG@1": 0.75,
+      "P@3": 0.562,
+      "P@3_CI95": "[0.46, 0.67]",
+      "R@3": 0.562,
+      "nDCG@3": 0.691,
+      "nDCG@3_CI95": "[0.60, 0.78]",
+      "P@5": 0.425,
+      "R@5": 0.708,
+      "nDCG@5": 0.742,
+      "MRR": 0.788,
+      "MRR_CI95": "[0.64, 0.94]",
+      "MAP": 0.645,
+      "n_queries": 16
+    },
+    {
+      "index": "bm25",
+      "P@1": 0.812,
+      "R@1": 0.271,
+      "nDCG@1": 0.854,
+      "P@3": 0.625,
+      "P@3_CI95": "[0.50, 0.73]",
+      "R@3": 0.625,
+      "nDCG@3": 0.752,
+      "nDCG@3_CI95": "[0.65, 0.84]",
+      "P@5": 0.463,
+      "R@5": 0.771,
+      "nDCG@5": 0.804,
+      "MRR": 0.884,
+      "MRR_CI95": "[0.75, 1.00]",
+      "MAP": 0.72,
+      "n_queries": 16
+    },
+    {
+      "index": "embedding (concat profile)",
+      "P@1": 0.688,
+      "R@1": 0.229,
+      "nDCG@1": 0.792,
+      "P@3": 0.625,
+      "P@3_CI95": "[0.50, 0.73]",
+      "R@3": 0.625,
+      "nDCG@3": 0.732,
+      "nDCG@3_CI95": "[0.64, 0.82]",
+      "P@5": 0.45,
+      "R@5": 0.75,
+      "nDCG@5": 0.78,
+      "MRR": 0.809,
+      "MRR_CI95": "[0.67, 0.96]",
+      "MAP": 0.687,
+      "n_queries": 16
+    },
+    {
+      "index": "embedding (mean of docs)",
+      "P@1": 0.812,
+      "R@1": 0.271,
+      "nDCG@1": 0.875,
+      "P@3": 0.625,
+      "P@3_CI95": "[0.50, 0.75]",
+      "R@3": 0.625,
+      "nDCG@3": 0.745,
+      "nDCG@3_CI95": "[0.65, 0.84]",
+      "P@5": 0.425,
+      "R@5": 0.708,
+      "nDCG@5": 0.758,
+      "MRR": 0.882,
+      "MRR_CI95": "[0.75, 1.00]",
+      "MAP": 0.694,
+      "n_queries": 16
+    },
+    {
+      "index": "hybrid (alpha=0.8)",
+      "P@1": 0.812,
+      "R@1": 0.271,
+      "nDCG@1": 0.875,
+      "P@3": 0.625,
+      "P@3_CI95": "[0.50, 0.75]",
+      "R@3": 0.625,
+      "nDCG@3": 0.74,
+      "nDCG@3_CI95": "[0.64, 0.83]",
+      "P@5": 0.425,
+      "R@5": 0.708,
+      "nDCG@5": 0.759,
+      "MRR": 0.882,
+      "MRR_CI95": "[0.75, 1.00]",
+      "MAP": 0.698,
+      "n_queries": 16
+    }
+  ],
+  "robustness": [
+    {
+      "profile_text": "full",
+      "method": "tfidf",
+      "P@3": 0.875,
+      "R@3": 0.262,
+      "nDCG@3": 0.691,
+      "MRR": 1.0
+    },
+    {
+      "profile_text": "full",
+      "method": "embedding",
+      "P@3": 0.875,
+      "R@3": 0.262,
+      "nDCG@3": 0.745,
+      "MRR": 1.0
+    },
+    {
+      "profile_text": "full",
+      "method": "hybrid",
+      "P@3": 0.854,
+      "R@3": 0.257,
+      "nDCG@3": 0.74,
+      "MRR": 1.0
+    },
+    {
+      "profile_text": "titles_keywords",
+      "method": "tfidf",
+      "P@3": 0.979,
+      "R@3": 0.299,
+      "nDCG@3": 0.792,
+      "MRR": 1.0
+    },
+    {
+      "profile_text": "titles_keywords",
+      "method": "embedding",
+      "P@3": 0.958,
+      "R@3": 0.29,
+      "nDCG@3": 0.773,
+      "MRR": 1.0
+    },
+    {
+      "profile_text": "titles_keywords",
+      "method": "hybrid",
+      "P@3": 0.979,
+      "R@3": 0.299,
+      "nDCG@3": 0.785,
+      "MRR": 1.0
+    },
+    {
+      "profile_text": "interests_only",
+      "method": "tfidf",
+      "P@3": 0.562,
+      "R@3": 0.164,
+      "nDCG@3": 0.488,
+      "MRR": 0.859
+    },
+    {
+      "profile_text": "interests_only",
+      "method": "embedding",
+      "P@3": 0.562,
+      "R@3": 0.164,
+      "nDCG@3": 0.475,
+      "MRR": 0.891
+    },
+    {
+      "profile_text": "interests_only",
+      "method": "hybrid",
+      "P@3": 0.562,
+      "R@3": 0.17,
+      "nDCG@3": 0.484,
+      "MRR": 0.88
+    }
+  ],
+  "keyword_hit_rate": {
+    "tfidf": 0.855,
+    "embedding (MMR)": 0.551
+  },
+  "topics": {
+    "n_topics": 6,
+    "coherence_npmi": 0.6158,
+    "k_selection": {
+      "6": 0.6158,
+      "7": 0.4621,
+      "8": 0.4112,
+      "9": 0.4529,
+      "10": 0.4246,
+      "11": 0.362,
+      "12": 0.3378
+    },
+    "topics": [
+      {
+        "topic_id": 0,
+        "label": "learning / deep / embedding",
+        "top_terms": [
+          "learning",
+          "deep",
+          "embedding",
+          "network",
+          "neural network",
+          "benchmark",
+          "dataset",
+          "deep learning"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "label": "generative / generative ai / ai",
+        "top_terms": [
+          "generative",
+          "generative ai",
+          "ai",
+          "hallucination",
+          "hallucination generative",
+          "grounding",
+          "prompting",
+          "engine"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "label": "linked / linked data / research information",
+        "top_terms": [
+          "linked",
+          "linked data",
+          "research information",
+          "research",
+          "information",
+          "data",
+          "shared vocabulary",
+          "integration"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "label": "time sery / sery / time",
+        "top_terms": [
+          "time sery",
+          "sery",
+          "time",
+          "anomaly",
+          "lstm",
+          "sensor",
+          "measurement",
+          "forecasting"
+        ]
+      },
+      {
+        "topic_id": 4,
+        "label": "text / classification / text classification",
+        "top_terms": [
+          "text",
+          "classification",
+          "text classification",
+          "transformer",
+          "transfer",
+          "multilingual",
+          "hindi",
+          "extraction"
+        ]
+      },
+      {
+        "topic_id": 5,
+        "label": "access control / control / access",
+        "top_terms": [
+          "access control",
+          "control",
+          "access",
+          "blockchain",
+          "sensitive",
+          "record",
+          "blockchain access",
+          "based access"
+        ]
+      }
+    ]
+  },
+  "n_false_positives_top3": 11
+}

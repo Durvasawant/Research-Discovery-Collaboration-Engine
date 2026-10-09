@@ -1,0 +1,4917 @@
+{
+  "F01": {
+    "input_id": "F01",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 01",
+      "department": "Computer Science",
+      "top_keywords": [
+        "scientific text",
+        "free-text",
+        "aspect extraction",
+        "language text",
+        "natural",
+        "text"
+      ],
+      "entities": {
+        "methods": [
+          "sentence embedding",
+          "transformer"
+        ],
+        "tasks": [
+          "information extraction",
+          "named entity recognition",
+          "relation extraction",
+          "sentiment analysis",
+          "text classification"
+        ],
+        "domains": [
+          "multilingual",
+          "student"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F04",
+          "faculty_name": "Faculty 04",
+          "department": "Computer Science",
+          "similarity": 0.751,
+          "shared_keywords": [
+            "aspect extraction",
+            "information extraction",
+            "relation extraction",
+            "scientific text"
+          ],
+          "shared_terms": [
+            "extraction",
+            "scientific",
+            "aspect",
+            "information",
+            "extraction scientific",
+            "scientific text"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.602
+            }
+          ]
+        },
+        {
+          "faculty_id": "F03",
+          "faculty_name": "Faculty 03",
+          "department": "Computer Science",
+          "similarity": 0.475,
+          "shared_keywords": [
+            "multilingual nlp",
+            "transfer learning",
+            "hindi",
+            "text classification",
+            "sentiment analysis",
+            "aspect extraction"
+          ],
+          "shared_terms": [
+            "text classification",
+            "classification",
+            "aspect",
+            "sentiment",
+            "transfer",
+            "sentiment analysis"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.593
+            }
+          ]
+        },
+        {
+          "faculty_id": "F02",
+          "faculty_name": "Faculty 02",
+          "department": "Computer Science",
+          "similarity": 0.41,
+          "shared_keywords": [
+            "multilingual nlp",
+            "transfer learning",
+            "hindi",
+            "text classification"
+          ],
+          "shared_terms": [
+            "classification",
+            "text classification",
+            "multilingual",
+            "transfer",
+            "hindi",
+            "sentiment"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.634
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "aspect extraction",
+        "multilingual nlp",
+        "transfer learning",
+        "hindi",
+        "text classification",
+        "information extraction",
+        "relation extraction",
+        "scientific text"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F02": {
+    "input_id": "F02",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 02",
+      "department": "Computer Science",
+      "top_keywords": [
+        "multilingual nlp",
+        "summarising",
+        "text classification",
+        "multilingual",
+        "nlp",
+        "data validation"
+      ],
+      "entities": {
+        "methods": [
+          "owl",
+          "transformer"
+        ],
+        "tasks": [
+          "reasoning",
+          "sentiment analysis",
+          "summarisation",
+          "text classification"
+        ],
+        "domains": [
+          "multilingual",
+          "ontology"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F01",
+          "faculty_name": "Faculty 01",
+          "department": "Computer Science",
+          "similarity": 0.41,
+          "shared_keywords": [
+            "multilingual nlp",
+            "transfer learning",
+            "hindi",
+            "text classification"
+          ],
+          "shared_terms": [
+            "classification",
+            "text classification",
+            "multilingual",
+            "transfer",
+            "hindi",
+            "sentiment"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.634
+            }
+          ]
+        },
+        {
+          "faculty_id": "F03",
+          "faculty_name": "Faculty 03",
+          "department": "Computer Science",
+          "similarity": 0.375,
+          "shared_keywords": [
+            "transformers",
+            "multilingual nlp",
+            "transfer learning",
+            "hindi",
+            "text classification"
+          ],
+          "shared_terms": [
+            "classification",
+            "text classification",
+            "multilingual",
+            "hindi",
+            "transfer",
+            "summarisation"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.593
+            }
+          ]
+        },
+        {
+          "faculty_id": "F05",
+          "faculty_name": "Faculty 05",
+          "department": "Computer Science",
+          "similarity": 0.251,
+          "shared_keywords": [
+            "ontology",
+            "owl",
+            "reasoning"
+          ],
+          "shared_terms": [
+            "owl",
+            "ontology",
+            "reasoning",
+            "ontology owl",
+            "owl reasoning",
+            "reasoning ontology"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.27
+            },
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.189
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "multilingual nlp",
+        "transfer learning",
+        "hindi",
+        "text classification",
+        "transformers",
+        "ontology",
+        "owl",
+        "reasoning"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F03": {
+    "input_id": "F03",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 03",
+      "department": "Computer Science",
+      "top_keywords": [
+        "embeddings on public",
+        "sentiment",
+        "transformer-based",
+        "sentence embeddings",
+        "accuracy",
+        "embeddings"
+      ],
+      "entities": {
+        "methods": [
+          "bert",
+          "sentence embedding",
+          "transformer"
+        ],
+        "tasks": [
+          "named entity recognition",
+          "ner",
+          "sentiment analysis",
+          "summarisation",
+          "text classification"
+        ],
+        "domains": [
+          "multilingual",
+          "student"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F01",
+          "faculty_name": "Faculty 01",
+          "department": "Computer Science",
+          "similarity": 0.475,
+          "shared_keywords": [
+            "multilingual nlp",
+            "transfer learning",
+            "hindi",
+            "text classification",
+            "sentiment analysis",
+            "aspect extraction"
+          ],
+          "shared_terms": [
+            "text classification",
+            "classification",
+            "aspect",
+            "sentiment",
+            "transfer",
+            "sentiment analysis"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.593
+            }
+          ]
+        },
+        {
+          "faculty_id": "F07",
+          "faculty_name": "Faculty 07",
+          "department": "Computer Science",
+          "similarity": 0.431,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "embedding",
+            "network benchmark",
+            "embedding neural",
+            "learning embedding",
+            "deep"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.407
+            }
+          ]
+        },
+        {
+          "faculty_id": "F11",
+          "faculty_name": "Faculty 11",
+          "department": "Computer Science",
+          "similarity": 0.419,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "embedding",
+            "learning embedding",
+            "network benchmark",
+            "embedding neural",
+            "benchmark"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.407
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "deep learning",
+        "embeddings",
+        "neural networks",
+        "benchmark",
+        "multilingual nlp",
+        "transfer learning",
+        "hindi",
+        "text classification"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F04": {
+    "input_id": "F04",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 04",
+      "department": "Computer Science",
+      "top_keywords": [
+        "information extraction",
+        "categorisation",
+        "natural",
+        "text categorisation",
+        "information",
+        "aspect extraction"
+      ],
+      "entities": {
+        "methods": [
+          "rdf"
+        ],
+        "tasks": [
+          "information extraction",
+          "relation extraction"
+        ],
+        "domains": [
+          "student"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F01",
+          "faculty_name": "Faculty 01",
+          "department": "Computer Science",
+          "similarity": 0.751,
+          "shared_keywords": [
+            "information extraction",
+            "relation extraction",
+            "scientific text",
+            "aspect extraction"
+          ],
+          "shared_terms": [
+            "extraction",
+            "scientific",
+            "aspect",
+            "information",
+            "extraction scientific",
+            "scientific text"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.602
+            }
+          ]
+        },
+        {
+          "faculty_id": "F08",
+          "faculty_name": "Faculty 08",
+          "department": "Computer Science",
+          "similarity": 0.385,
+          "shared_keywords": [
+            "information extraction",
+            "linked data",
+            "rdf",
+            "research information systems"
+          ],
+          "shared_terms": [
+            "linked",
+            "information",
+            "extraction",
+            "linked data",
+            "research information",
+            "information extraction"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.437
+            },
+            {
+              "topic_id": 2,
+              "label": "linked / linked data / research information",
+              "top_terms": [
+                "linked",
+                "linked data",
+                "research information",
+                "research"
+              ],
+              "strength": 0.382
+            }
+          ]
+        },
+        {
+          "faculty_id": "F05",
+          "faculty_name": "Faculty 05",
+          "department": "Computer Science",
+          "similarity": 0.34,
+          "shared_keywords": [
+            "linked data",
+            "rdf",
+            "research information systems",
+            "information extraction"
+          ],
+          "shared_terms": [
+            "information",
+            "extraction",
+            "linked",
+            "linked data",
+            "research information",
+            "information extraction"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 2,
+              "label": "linked / linked data / research information",
+              "top_terms": [
+                "linked",
+                "linked data",
+                "research information",
+                "research"
+              ],
+              "strength": 0.382
+            },
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.27
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "information extraction",
+        "linked data",
+        "rdf",
+        "research information systems",
+        "relation extraction",
+        "scientific text",
+        "aspect extraction"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F05": {
+    "input_id": "F05",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 05",
+      "department": "Computer Science",
+      "top_keywords": [
+        "automatic knowledge",
+        "data validation",
+        "information",
+        "semantic web",
+        "construction",
+        "automatic knowledge graph"
+      ],
+      "entities": {
+        "methods": [
+          "owl",
+          "rdf"
+        ],
+        "tasks": [
+          "entity linking",
+          "information extraction",
+          "named entity recognition",
+          "ner",
+          "reasoning",
+          "relation extraction"
+        ],
+        "domains": [
+          "knowledge graph",
+          "ontology"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F06",
+          "faculty_name": "Faculty 06",
+          "department": "Computer Science",
+          "similarity": 0.632,
+          "shared_keywords": [
+            "knowledge graph",
+            "ontology",
+            "ner"
+          ],
+          "shared_terms": [
+            "knowledge graph",
+            "knowledge",
+            "graph",
+            "ontology",
+            "entity",
+            "linking"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.27
+            }
+          ]
+        },
+        {
+          "faculty_id": "F07",
+          "faculty_name": "Faculty 07",
+          "department": "Computer Science",
+          "similarity": 0.531,
+          "shared_keywords": [
+            "knowledge graph",
+            "linked data",
+            "rdf",
+            "research information systems",
+            "ontology"
+          ],
+          "shared_terms": [
+            "knowledge graph",
+            "knowledge",
+            "graph",
+            "ontology",
+            "linked",
+            "linked data"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 2,
+              "label": "linked / linked data / research information",
+              "top_terms": [
+                "linked",
+                "linked data",
+                "research information",
+                "research"
+              ],
+              "strength": 0.242
+            }
+          ]
+        },
+        {
+          "faculty_id": "F08",
+          "faculty_name": "Faculty 08",
+          "department": "Computer Science",
+          "similarity": 0.476,
+          "shared_keywords": [
+            "information extraction",
+            "ner",
+            "linked data",
+            "rdf",
+            "research information systems"
+          ],
+          "shared_terms": [
+            "linked",
+            "information",
+            "linked data",
+            "research information",
+            "extraction ner",
+            "web"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 2,
+              "label": "linked / linked data / research information",
+              "top_terms": [
+                "linked",
+                "linked data",
+                "research information",
+                "research"
+              ],
+              "strength": 0.463
+            },
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.27
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "knowledge graph",
+        "ontology",
+        "ner",
+        "linked data",
+        "rdf",
+        "research information systems",
+        "information extraction"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F06": {
+    "input_id": "F06",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 06",
+      "department": "Computer Science",
+      "top_keywords": [
+        "ranking",
+        "sparql-based semantic search",
+        "entity linking",
+        "entities using contextual",
+        "candidate ranking",
+        "contextual candidate ranking"
+      ],
+      "entities": {
+        "methods": [
+          "bert",
+          "sparql",
+          "transformer"
+        ],
+        "tasks": [
+          "entity linking",
+          "named entity recognition",
+          "ner",
+          "semantic search"
+        ],
+        "domains": [
+          "knowledge graph",
+          "ontology"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F05",
+          "faculty_name": "Faculty 05",
+          "department": "Computer Science",
+          "similarity": 0.632,
+          "shared_keywords": [
+            "knowledge graph",
+            "ner",
+            "ontology"
+          ],
+          "shared_terms": [
+            "knowledge graph",
+            "knowledge",
+            "graph",
+            "ontology",
+            "entity",
+            "linking"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.27
+            }
+          ]
+        },
+        {
+          "faculty_id": "F07",
+          "faculty_name": "Faculty 07",
+          "department": "Computer Science",
+          "similarity": 0.396,
+          "shared_keywords": [
+            "knowledge graph",
+            "ontology",
+            "semantic search",
+            "sparql"
+          ],
+          "shared_terms": [
+            "search",
+            "semantic search",
+            "ontology",
+            "knowledge graph",
+            "knowledge",
+            "graph"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.268
+            }
+          ]
+        },
+        {
+          "faculty_id": "F03",
+          "faculty_name": "Faculty 03",
+          "department": "Computer Science",
+          "similarity": 0.269,
+          "shared_keywords": [
+            "ner",
+            "bert",
+            "transformers",
+            "low-resource"
+          ],
+          "shared_terms": [
+            "low resource",
+            "resource",
+            "bert",
+            "low",
+            "entity",
+            "transformer low"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.52
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.268
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "knowledge graph",
+        "ner",
+        "ontology",
+        "semantic search",
+        "sparql",
+        "bert",
+        "transformers",
+        "low-resource"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F07": {
+    "input_id": "F07",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 07",
+      "department": "Computer Science",
+      "top_keywords": [
+        "embeddings for link",
+        "rdf",
+        "academic data",
+        "public benchmark",
+        "representation learning",
+        "discussion of scalability"
+      ],
+      "entities": {
+        "methods": [
+          "graph embedding",
+          "rdf",
+          "sparql"
+        ],
+        "tasks": [
+          "link prediction",
+          "reasoning",
+          "semantic search"
+        ],
+        "domains": [
+          "knowledge graph",
+          "ontology"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F05",
+          "faculty_name": "Faculty 05",
+          "department": "Computer Science",
+          "similarity": 0.531,
+          "shared_keywords": [
+            "linked data",
+            "rdf",
+            "research information systems",
+            "knowledge graph",
+            "ontology"
+          ],
+          "shared_terms": [
+            "knowledge graph",
+            "knowledge",
+            "graph",
+            "ontology",
+            "linked",
+            "linked data"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 2,
+              "label": "linked / linked data / research information",
+              "top_terms": [
+                "linked",
+                "linked data",
+                "research information",
+                "research"
+              ],
+              "strength": 0.242
+            }
+          ]
+        },
+        {
+          "faculty_id": "F31",
+          "faculty_name": "Faculty 31",
+          "department": "Data Science",
+          "similarity": 0.475,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "graph",
+            "neural network",
+            "embedding neural",
+            "network benchmark",
+            "learning embedding",
+            "embedding"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.73
+            }
+          ]
+        },
+        {
+          "faculty_id": "F23",
+          "faculty_name": "Faculty 23",
+          "department": "Information Technology",
+          "similarity": 0.453,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "embedding neural",
+            "learning embedding",
+            "network benchmark",
+            "embedding",
+            "deep"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.73
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "deep learning",
+        "embeddings",
+        "neural networks",
+        "benchmark",
+        "linked data",
+        "rdf",
+        "research information systems",
+        "knowledge graph"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F08": {
+    "input_id": "F08",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 08",
+      "department": "Computer Science",
+      "top_keywords": [
+        "linked facts construction",
+        "linked facts",
+        "facts",
+        "network of linked",
+        "catalogue entries",
+        "facts from raw"
+      ],
+      "entities": {
+        "methods": [
+          "rdf"
+        ],
+        "tasks": [
+          "information extraction",
+          "ner",
+          "relation extraction"
+        ],
+        "domains": [],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F05",
+          "faculty_name": "Faculty 05",
+          "department": "Computer Science",
+          "similarity": 0.476,
+          "shared_keywords": [
+            "linked data",
+            "rdf",
+            "research information systems",
+            "information extraction",
+            "ner"
+          ],
+          "shared_terms": [
+            "linked",
+            "information",
+            "linked data",
+            "research information",
+            "extraction ner",
+            "web"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 2,
+              "label": "linked / linked data / research information",
+              "top_terms": [
+                "linked",
+                "linked data",
+                "research information",
+                "research"
+              ],
+              "strength": 0.463
+            },
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.27
+            }
+          ]
+        },
+        {
+          "faculty_id": "F04",
+          "faculty_name": "Faculty 04",
+          "department": "Computer Science",
+          "similarity": 0.385,
+          "shared_keywords": [
+            "information extraction",
+            "linked data",
+            "rdf",
+            "research information systems"
+          ],
+          "shared_terms": [
+            "linked",
+            "information",
+            "extraction",
+            "linked data",
+            "research information",
+            "information extraction"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.437
+            },
+            {
+              "topic_id": 2,
+              "label": "linked / linked data / research information",
+              "top_terms": [
+                "linked",
+                "linked data",
+                "research information",
+                "research"
+              ],
+              "strength": 0.382
+            }
+          ]
+        },
+        {
+          "faculty_id": "F07",
+          "faculty_name": "Faculty 07",
+          "department": "Computer Science",
+          "similarity": 0.269,
+          "shared_keywords": [
+            "linked data",
+            "rdf",
+            "research information systems"
+          ],
+          "shared_terms": [
+            "linked",
+            "linked data",
+            "information",
+            "research information",
+            "rdf",
+            "data rdf"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 2,
+              "label": "linked / linked data / research information",
+              "top_terms": [
+                "linked",
+                "linked data",
+                "research information",
+                "research"
+              ],
+              "strength": 0.242
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "linked data",
+        "rdf",
+        "research information systems",
+        "information extraction",
+        "ner"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F09": {
+    "input_id": "F09",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 09",
+      "department": "Computer Science",
+      "top_keywords": [
+        "retrieval",
+        "retrieval augmented",
+        "agreement between large",
+        "automated",
+        "llm-as-a-judge for essay",
+        "language model judges"
+      ],
+      "entities": {
+        "methods": [
+          "adapter",
+          "chain-of-thought",
+          "fine-tuning",
+          "large language model",
+          "lora",
+          "prompting"
+        ],
+        "tasks": [
+          "reasoning"
+        ],
+        "domains": [
+          "generative ai",
+          "student"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F11",
+          "faculty_name": "Faculty 11",
+          "department": "Computer Science",
+          "similarity": 0.719,
+          "shared_keywords": [
+            "generative ai",
+            "prompting",
+            "chain-of-thought",
+            "reasoning",
+            "lora",
+            "fine-tuning"
+          ],
+          "shared_terms": [
+            "large language",
+            "large",
+            "fine tuning",
+            "tuning large",
+            "generative ai",
+            "generative"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.47
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.151
+            }
+          ]
+        },
+        {
+          "faculty_id": "F10",
+          "faculty_name": "Faculty 10",
+          "department": "Computer Science",
+          "similarity": 0.418,
+          "shared_keywords": [
+            "generative ai"
+          ],
+          "shared_terms": [
+            "llm",
+            "tuning",
+            "large language",
+            "large",
+            "generative",
+            "ai"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.648
+            }
+          ]
+        },
+        {
+          "faculty_id": "F12",
+          "faculty_name": "Faculty 12",
+          "department": "Computer Science",
+          "similarity": 0.404,
+          "shared_keywords": [
+            "generative ai",
+            "lora",
+            "fine-tuning"
+          ],
+          "shared_terms": [
+            "generative",
+            "generative ai",
+            "ai",
+            "fine tuning",
+            "lora",
+            "tuning"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.738
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "generative ai",
+        "lora",
+        "fine-tuning",
+        "prompting",
+        "chain-of-thought",
+        "reasoning"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F10": {
+    "input_id": "F10",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 10",
+      "department": "Computer Science",
+      "top_keywords": [
+        "llm alignment",
+        "hallucination in large",
+        "prompt",
+        "chatbots",
+        "prompt injection",
+        "alignment"
+      ],
+      "entities": {
+        "methods": [
+          "large language model",
+          "llm",
+          "prompting"
+        ],
+        "tasks": [
+          "hallucination",
+          "prompt injection"
+        ],
+        "domains": [
+          "generative ai"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F12",
+          "faculty_name": "Faculty 12",
+          "department": "Computer Science",
+          "similarity": 0.492,
+          "shared_keywords": [
+            "hallucination",
+            "generative ai",
+            "grounding",
+            "prompt injection"
+          ],
+          "shared_terms": [
+            "hallucination",
+            "injection",
+            "prompt injection",
+            "generative",
+            "prompt",
+            "tuning"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.648
+            }
+          ]
+        },
+        {
+          "faculty_id": "F09",
+          "faculty_name": "Faculty 09",
+          "department": "Computer Science",
+          "similarity": 0.418,
+          "shared_keywords": [
+            "generative ai"
+          ],
+          "shared_terms": [
+            "llm",
+            "tuning",
+            "large language",
+            "large",
+            "generative",
+            "ai"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.648
+            }
+          ]
+        },
+        {
+          "faculty_id": "F22",
+          "faculty_name": "Faculty 22",
+          "department": "Information Technology",
+          "similarity": 0.404,
+          "shared_keywords": [
+            "generative ai"
+          ],
+          "shared_terms": [
+            "attack",
+            "llm",
+            "generative",
+            "ai",
+            "generative ai",
+            "llm security"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.333
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "generative ai",
+        "hallucination",
+        "grounding",
+        "prompt injection"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F11": {
+    "input_id": "F11",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 11",
+      "department": "Computer Science",
+      "top_keywords": [
+        "evaluation",
+        "large",
+        "public benchmark",
+        "reasoning with generative",
+        "neural",
+        "llm evaluation"
+      ],
+      "entities": {
+        "methods": [
+          "adapter",
+          "chain-of-thought",
+          "fine-tuning",
+          "large language model",
+          "llm",
+          "lora",
+          "prompting"
+        ],
+        "tasks": [
+          "hallucination",
+          "reasoning"
+        ],
+        "domains": [
+          "generative ai"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F09",
+          "faculty_name": "Faculty 09",
+          "department": "Computer Science",
+          "similarity": 0.719,
+          "shared_keywords": [
+            "prompting",
+            "chain-of-thought",
+            "reasoning",
+            "generative ai",
+            "lora",
+            "fine-tuning"
+          ],
+          "shared_terms": [
+            "large language",
+            "large",
+            "fine tuning",
+            "tuning large",
+            "generative ai",
+            "generative"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.47
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.151
+            }
+          ]
+        },
+        {
+          "faculty_id": "F23",
+          "faculty_name": "Faculty 23",
+          "department": "Information Technology",
+          "similarity": 0.459,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "embedding neural",
+            "learning embedding",
+            "network benchmark",
+            "benchmark",
+            "deep"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.505
+            }
+          ]
+        },
+        {
+          "faculty_id": "F07",
+          "faculty_name": "Faculty 07",
+          "department": "Computer Science",
+          "similarity": 0.425,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "embedding",
+            "network benchmark",
+            "embedding neural",
+            "learning embedding",
+            "benchmark"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.505
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "deep learning",
+        "embeddings",
+        "neural networks",
+        "benchmark",
+        "prompting",
+        "chain-of-thought",
+        "reasoning",
+        "generative ai"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F12": {
+    "input_id": "F12",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 12",
+      "department": "Computer Science",
+      "top_keywords": [
+        "attempts against generative",
+        "adapting generative neural",
+        "neural text engine",
+        "look-up augmented",
+        "generative neural text",
+        "attempts on generative"
+      ],
+      "entities": {
+        "methods": [
+          "adapter",
+          "fine-tuning",
+          "lora",
+          "prompting"
+        ],
+        "tasks": [
+          "hallucination",
+          "prompt injection"
+        ],
+        "domains": [
+          "generative ai"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F10",
+          "faculty_name": "Faculty 10",
+          "department": "Computer Science",
+          "similarity": 0.492,
+          "shared_keywords": [
+            "hallucination",
+            "generative ai",
+            "grounding",
+            "prompt injection"
+          ],
+          "shared_terms": [
+            "hallucination",
+            "injection",
+            "prompt injection",
+            "generative",
+            "prompt",
+            "tuning"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.648
+            }
+          ]
+        },
+        {
+          "faculty_id": "F24",
+          "faculty_name": "Faculty 24",
+          "department": "Information Technology",
+          "similarity": 0.435,
+          "shared_keywords": [
+            "hallucination",
+            "generative ai",
+            "generative text engine",
+            "grounding"
+          ],
+          "shared_terms": [
+            "text engine",
+            "engine",
+            "generative",
+            "generative text",
+            "discovery",
+            "hallucination generative"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.332
+            }
+          ]
+        },
+        {
+          "faculty_id": "F09",
+          "faculty_name": "Faculty 09",
+          "department": "Computer Science",
+          "similarity": 0.404,
+          "shared_keywords": [
+            "generative ai",
+            "lora",
+            "fine-tuning"
+          ],
+          "shared_terms": [
+            "generative",
+            "generative ai",
+            "ai",
+            "fine tuning",
+            "lora",
+            "tuning"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.738
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "generative ai",
+        "hallucination",
+        "grounding",
+        "prompt injection",
+        "generative text engine",
+        "lora",
+        "fine-tuning"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F13": {
+    "input_id": "F13",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 13",
+      "department": "Electronics",
+      "top_keywords": [
+        "convolutional segmentation",
+        "video",
+        "recognition in videos",
+        "segmentation",
+        "convolutional segmentation networks",
+        "image segmentation"
+      ],
+      "entities": {
+        "methods": [
+          "3d cnn",
+          "u-net"
+        ],
+        "tasks": [
+          "action recognition",
+          "object detection",
+          "object tracking",
+          "segmentation"
+        ],
+        "domains": [
+          "mri",
+          "video"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F14",
+          "faculty_name": "Faculty 14",
+          "department": "Electronics",
+          "similarity": 0.642,
+          "shared_keywords": [
+            "object tracking",
+            "video analytics",
+            "re-identification"
+          ],
+          "shared_terms": [
+            "object",
+            "tracking",
+            "video",
+            "object tracking",
+            "video analytics",
+            "object detection"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.216
+            }
+          ]
+        },
+        {
+          "faculty_id": "F15",
+          "faculty_name": "Faculty 15",
+          "department": "Electronics",
+          "similarity": 0.528,
+          "shared_keywords": [
+            "deep learning",
+            "action recognition",
+            "3d cnn",
+            "video",
+            "segmentation",
+            "u-net"
+          ],
+          "shared_terms": [
+            "segmentation",
+            "mri",
+            "action",
+            "action recognition",
+            "3d",
+            "video"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.813
+            }
+          ]
+        },
+        {
+          "faculty_id": "F16",
+          "faculty_name": "Faculty 16",
+          "department": "Electronics",
+          "similarity": 0.467,
+          "shared_keywords": [
+            "action recognition"
+          ],
+          "shared_terms": [
+            "3d",
+            "action",
+            "action recognition",
+            "object",
+            "recognition 3d",
+            "recognition"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.757
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "action recognition",
+        "object tracking",
+        "video analytics",
+        "re-identification",
+        "deep learning",
+        "3d cnn",
+        "video",
+        "segmentation"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F14": {
+    "input_id": "F14",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 14",
+      "department": "Electronics",
+      "top_keywords": [
+        "embedded",
+        "object",
+        "ehr",
+        "tracking-by-detection",
+        "object tracking",
+        "re-identification"
+      ],
+      "entities": {
+        "methods": [
+          "cnn",
+          "transformer"
+        ],
+        "tasks": [
+          "named entity recognition",
+          "ner",
+          "object detection",
+          "object tracking"
+        ],
+        "domains": [
+          "biomedical",
+          "clinical",
+          "video"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F13",
+          "faculty_name": "Faculty 13",
+          "department": "Electronics",
+          "similarity": 0.642,
+          "shared_keywords": [
+            "object tracking",
+            "video analytics",
+            "re-identification"
+          ],
+          "shared_terms": [
+            "object",
+            "tracking",
+            "video",
+            "object tracking",
+            "video analytics",
+            "object detection"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.216
+            }
+          ]
+        },
+        {
+          "faculty_id": "F18",
+          "faculty_name": "Faculty 18",
+          "department": "Health Informatics",
+          "similarity": 0.264,
+          "shared_keywords": [
+            "cnn"
+          ],
+          "shared_terms": [
+            "clinical",
+            "biomedical nlp",
+            "biomedical",
+            "cnn",
+            "nlp",
+            "health record"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.241
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.216
+            },
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.212
+            }
+          ]
+        },
+        {
+          "faculty_id": "F03",
+          "faculty_name": "Faculty 03",
+          "department": "Computer Science",
+          "similarity": 0.139,
+          "shared_keywords": [
+            "transformers"
+          ],
+          "shared_terms": [
+            "transformer",
+            "neural network",
+            "nlp",
+            "ner",
+            "network",
+            "neural"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.265
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.216
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "object tracking",
+        "video analytics",
+        "re-identification",
+        "cnn",
+        "transformers"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F15": {
+    "input_id": "F15",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 15",
+      "department": "Electronics",
+      "top_keywords": [
+        "image representation",
+        "self-supervised representation learning",
+        "networks with learned",
+        "representation learning",
+        "multimodal learning",
+        "networks for brain"
+      ],
+      "entities": {
+        "methods": [
+          "3d cnn",
+          "contrastive learning",
+          "self-supervised learning",
+          "u-net"
+        ],
+        "tasks": [
+          "action recognition",
+          "segmentation"
+        ],
+        "domains": [
+          "mri",
+          "video"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F16",
+          "faculty_name": "Faculty 16",
+          "department": "Electronics",
+          "similarity": 0.633,
+          "shared_keywords": [
+            "self-supervised learning",
+            "contrastive learning",
+            "action recognition"
+          ],
+          "shared_terms": [
+            "supervised",
+            "self supervised",
+            "action recognition",
+            "action",
+            "3d",
+            "contrastive"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.757
+            }
+          ]
+        },
+        {
+          "faculty_id": "F13",
+          "faculty_name": "Faculty 13",
+          "department": "Electronics",
+          "similarity": 0.528,
+          "shared_keywords": [
+            "segmentation",
+            "u-net",
+            "mri",
+            "deep learning",
+            "action recognition",
+            "3d cnn"
+          ],
+          "shared_terms": [
+            "segmentation",
+            "mri",
+            "action",
+            "action recognition",
+            "3d",
+            "video"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.813
+            }
+          ]
+        },
+        {
+          "faculty_id": "F23",
+          "faculty_name": "Faculty 23",
+          "department": "Information Technology",
+          "similarity": 0.446,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "network benchmark",
+            "learning embedding",
+            "embedding neural",
+            "deep",
+            "benchmark"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.816
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "action recognition",
+        "deep learning",
+        "self-supervised learning",
+        "contrastive learning",
+        "segmentation",
+        "u-net",
+        "mri",
+        "3d cnn"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F16": {
+    "input_id": "F16",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 16",
+      "department": "Electronics",
+      "top_keywords": [
+        "region partitioning",
+        "learning for pictures",
+        "partitioning",
+        "region",
+        "picture region partitioning",
+        "picture region"
+      ],
+      "entities": {
+        "methods": [
+          "contrastive learning",
+          "federated learning",
+          "self-supervised learning"
+        ],
+        "tasks": [
+          "action recognition"
+        ],
+        "domains": [
+          "video"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F15",
+          "faculty_name": "Faculty 15",
+          "department": "Electronics",
+          "similarity": 0.633,
+          "shared_keywords": [
+            "self-supervised learning",
+            "contrastive learning",
+            "action recognition"
+          ],
+          "shared_terms": [
+            "supervised",
+            "self supervised",
+            "action recognition",
+            "action",
+            "3d",
+            "contrastive"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.757
+            }
+          ]
+        },
+        {
+          "faculty_id": "F13",
+          "faculty_name": "Faculty 13",
+          "department": "Electronics",
+          "similarity": 0.467,
+          "shared_keywords": [
+            "action recognition"
+          ],
+          "shared_terms": [
+            "3d",
+            "action",
+            "action recognition",
+            "object",
+            "recognition 3d",
+            "recognition"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.757
+            }
+          ]
+        },
+        {
+          "faculty_id": "F19",
+          "faculty_name": "Faculty 19",
+          "department": "Health Informatics",
+          "similarity": 0.356,
+          "shared_keywords": [
+            "federated learning"
+          ],
+          "shared_terms": [
+            "federated learning",
+            "federated",
+            "learning",
+            "deep",
+            "analytics",
+            "learning privacy"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.757
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "action recognition",
+        "self-supervised learning",
+        "contrastive learning",
+        "federated learning"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F17": {
+    "input_id": "F17",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 17",
+      "department": "Health Informatics",
+      "top_keywords": [
+        "learning in healthcare",
+        "detect arrhythmias",
+        "diagnosis",
+        "healthcare",
+        "medical imaging diagnosis",
+        "healthcare analytics"
+      ],
+      "entities": {
+        "methods": [
+          "cnn",
+          "federated learning"
+        ],
+        "tasks": [
+          "disease prediction"
+        ],
+        "domains": [
+          "healthcare",
+          "privacy",
+          "x-ray"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F19",
+          "faculty_name": "Faculty 19",
+          "department": "Health Informatics",
+          "similarity": 0.672,
+          "shared_keywords": [
+            "federated learning",
+            "privacy",
+            "healthcare analytics",
+            "deep learning",
+            "chest x-ray",
+            "diagnosis"
+          ],
+          "shared_terms": [
+            "healthcare",
+            "federated learning",
+            "federated",
+            "ray",
+            "chest ray",
+            "chest"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.47
+            }
+          ]
+        },
+        {
+          "faculty_id": "F18",
+          "faculty_name": "Faculty 18",
+          "department": "Health Informatics",
+          "similarity": 0.559,
+          "shared_keywords": [
+            "wearables",
+            "ecg",
+            "arrhythmia detection",
+            "chest x-ray",
+            "diagnosis",
+            "deep learning"
+          ],
+          "shared_terms": [
+            "ray",
+            "wearable",
+            "chest ray",
+            "chest",
+            "ecg",
+            "wearable ecg"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.47
+            },
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.241
+            }
+          ]
+        },
+        {
+          "faculty_id": "F20",
+          "faculty_name": "Faculty 20",
+          "department": "Health Informatics",
+          "similarity": 0.342,
+          "shared_keywords": [],
+          "shared_terms": [
+            "medical",
+            "prediction machine",
+            "disease prediction",
+            "diagnosis",
+            "disease",
+            "diagnosis disease"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 5,
+              "label": "access control / control / access",
+              "top_terms": [
+                "access control",
+                "control",
+                "access",
+                "blockchain"
+              ],
+              "strength": 0.189
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.156
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "deep learning",
+        "chest x-ray",
+        "diagnosis",
+        "federated learning",
+        "privacy",
+        "healthcare analytics",
+        "wearables",
+        "ecg"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F18": {
+    "input_id": "F18",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 18",
+      "department": "Health Informatics",
+      "top_keywords": [
+        "tf-idf",
+        "electronic health",
+        "detect arrhythmias",
+        "embeddings with tf-idf",
+        "textual",
+        "contrastively"
+      ],
+      "entities": {
+        "methods": [
+          "cnn",
+          "sentence embedding",
+          "tf-idf"
+        ],
+        "tasks": [
+          "semantic textual similarity"
+        ],
+        "domains": [
+          "biomedical",
+          "clinical",
+          "x-ray"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F17",
+          "faculty_name": "Faculty 17",
+          "department": "Health Informatics",
+          "similarity": 0.559,
+          "shared_keywords": [
+            "wearables",
+            "ecg",
+            "arrhythmia detection",
+            "chest x-ray",
+            "diagnosis",
+            "deep learning"
+          ],
+          "shared_terms": [
+            "ray",
+            "wearable",
+            "chest ray",
+            "chest",
+            "ecg",
+            "wearable ecg"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.47
+            },
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.241
+            }
+          ]
+        },
+        {
+          "faculty_id": "F03",
+          "faculty_name": "Faculty 03",
+          "department": "Computer Science",
+          "similarity": 0.38,
+          "shared_keywords": [
+            "deep learning"
+          ],
+          "shared_terms": [
+            "sentence embedding",
+            "similarity",
+            "sentence",
+            "semantic similarity",
+            "embedding",
+            "semantic"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.407
+            },
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.212
+            }
+          ]
+        },
+        {
+          "faculty_id": "F14",
+          "faculty_name": "Faculty 14",
+          "department": "Electronics",
+          "similarity": 0.264,
+          "shared_keywords": [
+            "cnn"
+          ],
+          "shared_terms": [
+            "clinical",
+            "biomedical nlp",
+            "biomedical",
+            "cnn",
+            "nlp",
+            "health record"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.241
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.216
+            },
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.212
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "deep learning",
+        "wearables",
+        "ecg",
+        "arrhythmia detection",
+        "chest x-ray",
+        "diagnosis",
+        "cnn"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F19": {
+    "input_id": "F19",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 19",
+      "department": "Health Informatics",
+      "top_keywords": [
+        "patient",
+        "deep learning",
+        "representation learning",
+        "learning",
+        "discussion of scalability",
+        "patient records"
+      ],
+      "entities": {
+        "methods": [
+          "cnn",
+          "federated learning",
+          "gradient boosting",
+          "logistic regression"
+        ],
+        "tasks": [
+          "disease prediction"
+        ],
+        "domains": [
+          "healthcare",
+          "privacy",
+          "x-ray"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F17",
+          "faculty_name": "Faculty 17",
+          "department": "Health Informatics",
+          "similarity": 0.672,
+          "shared_keywords": [
+            "federated learning",
+            "privacy",
+            "healthcare analytics",
+            "chest x-ray",
+            "diagnosis",
+            "deep learning"
+          ],
+          "shared_terms": [
+            "healthcare",
+            "federated learning",
+            "federated",
+            "ray",
+            "chest ray",
+            "chest"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.47
+            }
+          ]
+        },
+        {
+          "faculty_id": "F31",
+          "faculty_name": "Faculty 31",
+          "department": "Data Science",
+          "similarity": 0.454,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "learning embedding",
+            "network benchmark",
+            "embedding neural",
+            "deep",
+            "benchmark"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.887
+            }
+          ]
+        },
+        {
+          "faculty_id": "F07",
+          "faculty_name": "Faculty 07",
+          "department": "Computer Science",
+          "similarity": 0.452,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "network benchmark",
+            "embedding neural",
+            "learning embedding",
+            "embedding",
+            "deep"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.73
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "deep learning",
+        "embeddings",
+        "neural networks",
+        "benchmark",
+        "federated learning",
+        "privacy",
+        "healthcare analytics",
+        "chest x-ray"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F20": {
+    "input_id": "F20",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 20",
+      "department": "Health Informatics",
+      "top_keywords": [
+        "bedside",
+        "risk from care",
+        "care centre discharge",
+        "centre discharge",
+        "centre discharge summaries",
+        "prediction on care"
+      ],
+      "entities": {
+        "methods": [
+          "bert",
+          "gradient boosting",
+          "logistic regression"
+        ],
+        "tasks": [
+          "disease prediction",
+          "ner"
+        ],
+        "domains": [],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F17",
+          "faculty_name": "Faculty 17",
+          "department": "Health Informatics",
+          "similarity": 0.342,
+          "shared_keywords": [],
+          "shared_terms": [
+            "medical",
+            "prediction machine",
+            "disease prediction",
+            "diagnosis",
+            "disease",
+            "diagnosis disease"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 5,
+              "label": "access control / control / access",
+              "top_terms": [
+                "access control",
+                "control",
+                "access",
+                "blockchain"
+              ],
+              "strength": 0.189
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.156
+            }
+          ]
+        },
+        {
+          "faculty_id": "F08",
+          "faculty_name": "Faculty 08",
+          "department": "Computer Science",
+          "similarity": 0.257,
+          "shared_keywords": [
+            "ner",
+            "condensing",
+            "attention networks",
+            "factual consistency"
+          ],
+          "shared_terms": [
+            "condensing",
+            "factual consistency",
+            "factual",
+            "attention network",
+            "consistency",
+            "ner"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 4,
+              "label": "text / classification / text classification",
+              "top_terms": [
+                "text",
+                "classification",
+                "text classification",
+                "transformer"
+              ],
+              "strength": 0.437
+            }
+          ]
+        },
+        {
+          "faculty_id": "F19",
+          "faculty_name": "Faculty 19",
+          "department": "Health Informatics",
+          "similarity": 0.215,
+          "shared_keywords": [
+            "disease prediction",
+            "machine learning"
+          ],
+          "shared_terms": [
+            "disease",
+            "disease prediction",
+            "prediction machine",
+            "prediction",
+            "risk",
+            "diagnosis"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.156
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "ner",
+        "condensing",
+        "attention networks",
+        "factual consistency",
+        "disease prediction",
+        "machine learning"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F21": {
+    "input_id": "F21",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 21",
+      "department": "Information Technology",
+      "top_keywords": [
+        "phishing email",
+        "anomaly-based network intrusion",
+        "phishing emails",
+        "email",
+        "emails",
+        "phishing"
+      ],
+      "entities": {
+        "methods": [
+          "autoencoder",
+          "transformer"
+        ],
+        "tasks": [
+          "anomaly detection",
+          "intrusion detection",
+          "phishing",
+          "text classification"
+        ],
+        "domains": [
+          "blockchain",
+          "cybersecurity",
+          "privacy"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F24",
+          "faculty_name": "Faculty 24",
+          "department": "Information Technology",
+          "similarity": 0.607,
+          "shared_keywords": [
+            "autoencoder",
+            "blockchain",
+            "access control"
+          ],
+          "shared_terms": [
+            "access",
+            "autoencoder",
+            "access control",
+            "control",
+            "blockchain",
+            "anomaly"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 5,
+              "label": "access control / control / access",
+              "top_terms": [
+                "access control",
+                "control",
+                "access",
+                "blockchain"
+              ],
+              "strength": 0.373
+            },
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.16
+            }
+          ]
+        },
+        {
+          "faculty_id": "F23",
+          "faculty_name": "Faculty 23",
+          "department": "Information Technology",
+          "similarity": 0.474,
+          "shared_keywords": [
+            "intrusion detection",
+            "anomaly detection",
+            "autoencoder"
+          ],
+          "shared_terms": [
+            "intrusion",
+            "intrusion detection",
+            "autoencoder",
+            "detection autoencoder",
+            "detection",
+            "network intrusion"
+          ],
+          "shared_topics": []
+        },
+        {
+          "faculty_id": "F22",
+          "faculty_name": "Faculty 22",
+          "department": "Information Technology",
+          "similarity": 0.261,
+          "shared_keywords": [
+            "blockchain",
+            "access control",
+            "privacy"
+          ],
+          "shared_terms": [
+            "access control",
+            "access",
+            "control",
+            "blockchain",
+            "control privacy",
+            "blockchain access"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 5,
+              "label": "access control / control / access",
+              "top_terms": [
+                "access control",
+                "control",
+                "access",
+                "blockchain"
+              ],
+              "strength": 0.333
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "autoencoder",
+        "blockchain",
+        "access control",
+        "intrusion detection",
+        "anomaly detection",
+        "privacy"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F22": {
+    "input_id": "F22",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 22",
+      "department": "Information Technology",
+      "top_keywords": [
+        "malware",
+        "prompt engineering strategies",
+        "adversarial machine",
+        "control",
+        "adversarial",
+        "adversarial perturbations"
+      ],
+      "entities": {
+        "methods": [
+          "chain-of-thought",
+          "llm",
+          "prompting"
+        ],
+        "tasks": [
+          "malware",
+          "reasoning"
+        ],
+        "domains": [
+          "blockchain",
+          "cybersecurity",
+          "generative ai",
+          "privacy"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F23",
+          "faculty_name": "Faculty 23",
+          "department": "Information Technology",
+          "similarity": 0.518,
+          "shared_keywords": [
+            "adversarial attacks",
+            "malware",
+            "cybersecurity"
+          ],
+          "shared_terms": [
+            "malware",
+            "adversarial",
+            "attack",
+            "adversarial attack",
+            "attack malware",
+            "access"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.299
+            }
+          ]
+        },
+        {
+          "faculty_id": "F10",
+          "faculty_name": "Faculty 10",
+          "department": "Computer Science",
+          "similarity": 0.404,
+          "shared_keywords": [
+            "generative ai"
+          ],
+          "shared_terms": [
+            "attack",
+            "llm",
+            "generative",
+            "ai",
+            "generative ai",
+            "llm security"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.333
+            }
+          ]
+        },
+        {
+          "faculty_id": "F21",
+          "faculty_name": "Faculty 21",
+          "department": "Information Technology",
+          "similarity": 0.261,
+          "shared_keywords": [
+            "blockchain",
+            "access control",
+            "privacy"
+          ],
+          "shared_terms": [
+            "access control",
+            "access",
+            "control",
+            "blockchain",
+            "control privacy",
+            "blockchain access"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 5,
+              "label": "access control / control / access",
+              "top_terms": [
+                "access control",
+                "control",
+                "access",
+                "blockchain"
+              ],
+              "strength": 0.333
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "adversarial attacks",
+        "malware",
+        "cybersecurity",
+        "generative ai",
+        "blockchain",
+        "access control",
+        "privacy"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F23": {
+    "input_id": "F23",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 23",
+      "department": "Information Technology",
+      "top_keywords": [
+        "neural networks",
+        "authentication",
+        "cybersecurity",
+        "attacks against large",
+        "networks with learned",
+        "benchmark"
+      ],
+      "entities": {
+        "methods": [
+          "autoencoder",
+          "large language model",
+          "llm"
+        ],
+        "tasks": [
+          "anomaly detection",
+          "intrusion detection",
+          "malware",
+          "prompt injection"
+        ],
+        "domains": [
+          "cybersecurity"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F22",
+          "faculty_name": "Faculty 22",
+          "department": "Information Technology",
+          "similarity": 0.518,
+          "shared_keywords": [
+            "adversarial attacks",
+            "malware",
+            "cybersecurity"
+          ],
+          "shared_terms": [
+            "malware",
+            "adversarial",
+            "attack",
+            "adversarial attack",
+            "attack malware",
+            "access"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.299
+            }
+          ]
+        },
+        {
+          "faculty_id": "F21",
+          "faculty_name": "Faculty 21",
+          "department": "Information Technology",
+          "similarity": 0.474,
+          "shared_keywords": [
+            "intrusion detection",
+            "anomaly detection",
+            "autoencoder"
+          ],
+          "shared_terms": [
+            "intrusion",
+            "intrusion detection",
+            "autoencoder",
+            "detection autoencoder",
+            "detection",
+            "network intrusion"
+          ],
+          "shared_topics": []
+        },
+        {
+          "faculty_id": "F31",
+          "faculty_name": "Faculty 31",
+          "department": "Data Science",
+          "similarity": 0.474,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "embedding neural",
+            "learning embedding",
+            "network benchmark",
+            "benchmark",
+            "deep"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.816
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "adversarial attacks",
+        "malware",
+        "cybersecurity",
+        "intrusion detection",
+        "anomaly detection",
+        "autoencoder",
+        "deep learning",
+        "embeddings"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F24": {
+    "input_id": "F24",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 24",
+      "department": "Information Technology",
+      "top_keywords": [
+        "unauthorised access discovery",
+        "network unauthorised access",
+        "access discovery",
+        "protection",
+        "unauthorised access",
+        "unauthorised"
+      ],
+      "entities": {
+        "methods": [
+          "autoencoder",
+          "prompting"
+        ],
+        "tasks": [
+          "hallucination"
+        ],
+        "domains": [
+          "blockchain",
+          "generative ai"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F21",
+          "faculty_name": "Faculty 21",
+          "department": "Information Technology",
+          "similarity": 0.607,
+          "shared_keywords": [
+            "blockchain",
+            "access control",
+            "autoencoder"
+          ],
+          "shared_terms": [
+            "access",
+            "autoencoder",
+            "access control",
+            "control",
+            "blockchain",
+            "anomaly"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 5,
+              "label": "access control / control / access",
+              "top_terms": [
+                "access control",
+                "control",
+                "access",
+                "blockchain"
+              ],
+              "strength": 0.373
+            },
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.16
+            }
+          ]
+        },
+        {
+          "faculty_id": "F12",
+          "faculty_name": "Faculty 12",
+          "department": "Computer Science",
+          "similarity": 0.435,
+          "shared_keywords": [
+            "hallucination",
+            "generative ai",
+            "generative text engine",
+            "grounding"
+          ],
+          "shared_terms": [
+            "text engine",
+            "engine",
+            "generative",
+            "generative text",
+            "discovery",
+            "hallucination generative"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 1,
+              "label": "generative / generative ai / ai",
+              "top_terms": [
+                "generative",
+                "generative ai",
+                "ai",
+                "hallucination"
+              ],
+              "strength": 0.332
+            }
+          ]
+        },
+        {
+          "faculty_id": "F23",
+          "faculty_name": "Faculty 23",
+          "department": "Information Technology",
+          "similarity": 0.277,
+          "shared_keywords": [
+            "autoencoder"
+          ],
+          "shared_terms": [
+            "autoencoder",
+            "access",
+            "control",
+            "access control",
+            "anomaly",
+            "intrusion"
+          ],
+          "shared_topics": []
+        }
+      ],
+      "common_topics": [
+        "autoencoder",
+        "blockchain",
+        "access control",
+        "hallucination",
+        "generative ai",
+        "generative text engine",
+        "grounding"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F25": {
+    "input_id": "F25",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 25",
+      "department": "Information Technology",
+      "top_keywords": [
+        "deploy iot sensors",
+        "computing for real-time",
+        "campus energy",
+        "stream",
+        "deploy iot",
+        "monitoring using iot"
+      ],
+      "entities": {
+        "methods": [
+          "arima",
+          "lstm"
+        ],
+        "tasks": [
+          "time series forecasting"
+        ],
+        "domains": [
+          "campus",
+          "edge computing",
+          "iot",
+          "wireless sensor"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F27",
+          "faculty_name": "Faculty 27",
+          "department": "Information Technology",
+          "similarity": 0.719,
+          "shared_keywords": [
+            "edge computing",
+            "stream processing",
+            "latency",
+            "lstm",
+            "time series forecasting",
+            "sensors"
+          ],
+          "shared_terms": [
+            "edge",
+            "sensor",
+            "forecasting",
+            "edge computing",
+            "computing",
+            "latency"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.276
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.159
+            }
+          ]
+        },
+        {
+          "faculty_id": "F26",
+          "faculty_name": "Faculty 26",
+          "department": "Information Technology",
+          "similarity": 0.567,
+          "shared_keywords": [
+            "lstm",
+            "time series forecasting",
+            "sensors"
+          ],
+          "shared_terms": [
+            "forecasting",
+            "sensor",
+            "time sery",
+            "sery",
+            "time",
+            "iot"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.56
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.159
+            }
+          ]
+        },
+        {
+          "faculty_id": "F28",
+          "faculty_name": "Faculty 28",
+          "department": "Information Technology",
+          "similarity": 0.406,
+          "shared_keywords": [
+            "lstm",
+            "smart campus",
+            "energy"
+          ],
+          "shared_terms": [
+            "campus",
+            "energy",
+            "edge",
+            "computing",
+            "edge computing",
+            "smart campus"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.757
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "lstm",
+        "time series forecasting",
+        "sensors",
+        "edge computing",
+        "stream processing",
+        "latency",
+        "smart campus",
+        "energy"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F26": {
+    "input_id": "F26",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 26",
+      "department": "Information Technology",
+      "top_keywords": [
+        "iot",
+        "simulation to optimise",
+        "series forecasting",
+        "campus sensing",
+        "iot analytics",
+        "combine sensor"
+      ],
+      "entities": {
+        "methods": [
+          "arima",
+          "lstm"
+        ],
+        "tasks": [
+          "community detection",
+          "time series forecasting"
+        ],
+        "domains": [
+          "campus",
+          "iot"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F25",
+          "faculty_name": "Faculty 25",
+          "department": "Information Technology",
+          "similarity": 0.567,
+          "shared_keywords": [
+            "lstm",
+            "time series forecasting",
+            "sensors"
+          ],
+          "shared_terms": [
+            "forecasting",
+            "sensor",
+            "time sery",
+            "sery",
+            "time",
+            "iot"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.56
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.159
+            }
+          ]
+        },
+        {
+          "faculty_id": "F27",
+          "faculty_name": "Faculty 27",
+          "department": "Information Technology",
+          "similarity": 0.43,
+          "shared_keywords": [
+            "lstm",
+            "time series forecasting",
+            "sensors"
+          ],
+          "shared_terms": [
+            "forecasting",
+            "sensor",
+            "time sery",
+            "sery",
+            "time",
+            "twin"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.276
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.212
+            }
+          ]
+        },
+        {
+          "faculty_id": "F31",
+          "faculty_name": "Faculty 31",
+          "department": "Data Science",
+          "similarity": 0.313,
+          "shared_keywords": [
+            "community detection",
+            "graph clustering",
+            "co-authorship"
+          ],
+          "shared_terms": [
+            "community",
+            "community detection",
+            "clustering",
+            "co authorship",
+            "co",
+            "authorship"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.212
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "lstm",
+        "time series forecasting",
+        "sensors",
+        "community detection",
+        "graph clustering",
+        "co-authorship"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F27": {
+    "input_id": "F27",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 27",
+      "department": "Information Technology",
+      "top_keywords": [
+        "sensor network",
+        "discussion of scalability",
+        "stream",
+        "real-time industrial",
+        "network",
+        "framework uses attention"
+      ],
+      "entities": {
+        "methods": [
+          "arima",
+          "lstm"
+        ],
+        "tasks": [
+          "time series forecasting"
+        ],
+        "domains": [
+          "edge computing",
+          "wireless sensor"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F25",
+          "faculty_name": "Faculty 25",
+          "department": "Information Technology",
+          "similarity": 0.719,
+          "shared_keywords": [
+            "edge computing",
+            "stream processing",
+            "latency",
+            "lstm",
+            "time series forecasting",
+            "sensors"
+          ],
+          "shared_terms": [
+            "edge",
+            "sensor",
+            "forecasting",
+            "edge computing",
+            "computing",
+            "latency"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.276
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.159
+            }
+          ]
+        },
+        {
+          "faculty_id": "F26",
+          "faculty_name": "Faculty 26",
+          "department": "Information Technology",
+          "similarity": 0.43,
+          "shared_keywords": [
+            "lstm",
+            "time series forecasting",
+            "sensors"
+          ],
+          "shared_terms": [
+            "forecasting",
+            "sensor",
+            "time sery",
+            "sery",
+            "time",
+            "twin"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.276
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.212
+            }
+          ]
+        },
+        {
+          "faculty_id": "F19",
+          "faculty_name": "Faculty 19",
+          "department": "Health Informatics",
+          "similarity": 0.417,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "network benchmark",
+            "embedding neural",
+            "learning embedding",
+            "neural network",
+            "deep",
+            "deep learning"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.724
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "lstm",
+        "time series forecasting",
+        "sensors",
+        "edge computing",
+        "stream processing",
+        "latency",
+        "deep learning",
+        "embeddings"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F28": {
+    "input_id": "F28",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 28",
+      "department": "Information Technology",
+      "top_keywords": [
+        "connected devices measurement",
+        "deploy connected devices",
+        "connected devices",
+        "connected",
+        "devices measurement",
+        "devices measurement devices"
+      ],
+      "entities": {
+        "methods": [
+          "arima",
+          "lstm"
+        ],
+        "tasks": [],
+        "domains": [
+          "campus",
+          "edge computing",
+          "finance"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F32",
+          "faculty_name": "Faculty 32",
+          "department": "Data Science",
+          "similarity": 0.757,
+          "shared_keywords": [
+            "anomaly discovery",
+            "temporal measurements",
+            "finance",
+            "lstm",
+            "temporal measurements predicting future values",
+            "measurement devices"
+          ],
+          "shared_terms": [
+            "measurement",
+            "temporal measurement",
+            "temporal",
+            "measurement device",
+            "device",
+            "value"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.665
+            }
+          ]
+        },
+        {
+          "faculty_id": "F25",
+          "faculty_name": "Faculty 25",
+          "department": "Information Technology",
+          "similarity": 0.406,
+          "shared_keywords": [
+            "smart campus",
+            "energy",
+            "lstm"
+          ],
+          "shared_terms": [
+            "campus",
+            "energy",
+            "edge",
+            "computing",
+            "edge computing",
+            "smart campus"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.757
+            }
+          ]
+        },
+        {
+          "faculty_id": "F27",
+          "faculty_name": "Faculty 27",
+          "department": "Information Technology",
+          "similarity": 0.251,
+          "shared_keywords": [
+            "lstm"
+          ],
+          "shared_terms": [
+            "energy",
+            "lstm",
+            "edge",
+            "edge computing",
+            "computing",
+            "power"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.276
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "lstm",
+        "anomaly discovery",
+        "temporal measurements",
+        "finance",
+        "temporal measurements predicting future values",
+        "measurement devices",
+        "smart campus",
+        "energy"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F29": {
+    "input_id": "F29",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 29",
+      "department": "Data Science",
+      "top_keywords": [
+        "data mining",
+        "transaction time",
+        "neural recommenders",
+        "big",
+        "education",
+        "education data"
+      ],
+      "entities": {
+        "methods": [
+          "matrix factorisation",
+          "tree ensemble"
+        ],
+        "tasks": [
+          "anomaly detection",
+          "dropout prediction",
+          "recommender systems"
+        ],
+        "domains": [
+          "education",
+          "finance",
+          "student"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F30",
+          "faculty_name": "Faculty 30",
+          "department": "Data Science",
+          "similarity": 0.8,
+          "shared_keywords": [
+            "anomaly detection",
+            "time series",
+            "finance",
+            "learning analytics",
+            "dropout prediction",
+            "education data"
+          ],
+          "shared_terms": [
+            "dropout",
+            "learning analytics",
+            "time sery",
+            "sery",
+            "time",
+            "recommender"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.365
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.283
+            }
+          ]
+        },
+        {
+          "faculty_id": "F31",
+          "faculty_name": "Faculty 31",
+          "department": "Data Science",
+          "similarity": 0.272,
+          "shared_keywords": [
+            "recommender systems",
+            "collaborative filtering",
+            "matrix factorisation"
+          ],
+          "shared_terms": [
+            "recommender",
+            "factorisation",
+            "matrix",
+            "matrix factorisation",
+            "collaborative filtering",
+            "implicit"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.41
+            }
+          ]
+        },
+        {
+          "faculty_id": "F32",
+          "faculty_name": "Faculty 32",
+          "department": "Data Science",
+          "similarity": 0.241,
+          "shared_keywords": [
+            "finance"
+          ],
+          "shared_terms": [
+            "anomaly",
+            "big data",
+            "big",
+            "analysis big",
+            "finance",
+            "data"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.365
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.224
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "finance",
+        "anomaly detection",
+        "time series",
+        "learning analytics",
+        "dropout prediction",
+        "education data",
+        "recommender systems",
+        "collaborative filtering"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F30": {
+    "input_id": "F30",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 30",
+      "department": "Data Science",
+      "top_keywords": [
+        "educational",
+        "educational data mining",
+        "education",
+        "education data",
+        "learning analytics",
+        "dropout"
+      ],
+      "entities": {
+        "methods": [
+          "tree ensemble"
+        ],
+        "tasks": [
+          "anomaly detection",
+          "dropout prediction",
+          "recommender systems"
+        ],
+        "domains": [
+          "education",
+          "finance",
+          "student",
+          "wireless sensor"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F29",
+          "faculty_name": "Faculty 29",
+          "department": "Data Science",
+          "similarity": 0.8,
+          "shared_keywords": [
+            "anomaly detection",
+            "time series",
+            "finance",
+            "learning analytics",
+            "dropout prediction",
+            "education data"
+          ],
+          "shared_terms": [
+            "dropout",
+            "learning analytics",
+            "time sery",
+            "sery",
+            "time",
+            "recommender"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.365
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.283
+            }
+          ]
+        },
+        {
+          "faculty_id": "F27",
+          "faculty_name": "Faculty 27",
+          "department": "Information Technology",
+          "similarity": 0.307,
+          "shared_keywords": [
+            "wireless sensor networks",
+            "routing",
+            "energy efficiency"
+          ],
+          "shared_terms": [
+            "routing",
+            "wireless sensor",
+            "sensor network",
+            "wireless",
+            "sensor",
+            "energy"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.283
+            },
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.276
+            }
+          ]
+        },
+        {
+          "faculty_id": "F25",
+          "faculty_name": "Faculty 25",
+          "department": "Information Technology",
+          "similarity": 0.29,
+          "shared_keywords": [
+            "time series"
+          ],
+          "shared_terms": [
+            "sery",
+            "time sery",
+            "sensor",
+            "energy",
+            "time",
+            "wireless"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.54
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.159
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "time series",
+        "anomaly detection",
+        "finance",
+        "learning analytics",
+        "dropout prediction",
+        "education data",
+        "wireless sensor networks",
+        "routing"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F31": {
+    "input_id": "F31",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 31",
+      "department": "Data Science",
+      "top_keywords": [
+        "tabular benchmarks",
+        "collaboration networks",
+        "datasets",
+        "factorisation and neural",
+        "learning for tabular",
+        "explainable"
+      ],
+      "entities": {
+        "methods": [
+          "matrix factorisation",
+          "shap"
+        ],
+        "tasks": [
+          "community detection",
+          "recommender systems"
+        ],
+        "domains": [],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F07",
+          "faculty_name": "Faculty 07",
+          "department": "Computer Science",
+          "similarity": 0.475,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "graph",
+            "neural network",
+            "embedding neural",
+            "network benchmark",
+            "learning embedding",
+            "embedding"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.73
+            }
+          ]
+        },
+        {
+          "faculty_id": "F23",
+          "faculty_name": "Faculty 23",
+          "department": "Information Technology",
+          "similarity": 0.474,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "embedding neural",
+            "learning embedding",
+            "network benchmark",
+            "benchmark",
+            "deep"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.816
+            }
+          ]
+        },
+        {
+          "faculty_id": "F19",
+          "faculty_name": "Faculty 19",
+          "department": "Health Informatics",
+          "similarity": 0.454,
+          "shared_keywords": [
+            "deep learning",
+            "embeddings",
+            "neural networks",
+            "benchmark"
+          ],
+          "shared_terms": [
+            "neural network",
+            "learning embedding",
+            "network benchmark",
+            "embedding neural",
+            "deep",
+            "benchmark"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.887
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "deep learning",
+        "embeddings",
+        "neural networks",
+        "benchmark"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  },
+  "F32": {
+    "input_id": "F32",
+    "method": "hybrid",
+    "embedder": "LSA-fallback",
+    "data_source": "SYNTHETIC",
+    "result": {
+      "researcher": "Faculty 32",
+      "department": "Data Science",
+      "top_keywords": [
+        "pattern",
+        "temporal measurements anomaly",
+        "temporal measurements predicting",
+        "temporal measurements analysis",
+        "transaction temporal measurements",
+        "temporal"
+      ],
+      "entities": {
+        "methods": [
+          "arima",
+          "lstm",
+          "shap"
+        ],
+        "tasks": [],
+        "domains": [
+          "finance"
+        ],
+        "general_entities": []
+      },
+      "related_researchers": [
+        {
+          "faculty_id": "F28",
+          "faculty_name": "Faculty 28",
+          "department": "Information Technology",
+          "similarity": 0.757,
+          "shared_keywords": [
+            "lstm",
+            "temporal measurements predicting future values",
+            "measurement devices",
+            "temporal measurements",
+            "anomaly discovery",
+            "finance"
+          ],
+          "shared_terms": [
+            "measurement",
+            "temporal measurement",
+            "temporal",
+            "measurement device",
+            "device",
+            "value"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.665
+            }
+          ]
+        },
+        {
+          "faculty_id": "F29",
+          "faculty_name": "Faculty 29",
+          "department": "Data Science",
+          "similarity": 0.241,
+          "shared_keywords": [
+            "finance"
+          ],
+          "shared_terms": [
+            "anomaly",
+            "big data",
+            "big",
+            "analysis big",
+            "finance",
+            "data"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 3,
+              "label": "time sery / sery / time",
+              "top_terms": [
+                "time sery",
+                "sery",
+                "time",
+                "anomaly"
+              ],
+              "strength": 0.365
+            },
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.224
+            }
+          ]
+        },
+        {
+          "faculty_id": "F31",
+          "faculty_name": "Faculty 31",
+          "department": "Data Science",
+          "similarity": 0.24,
+          "shared_keywords": [
+            "explainability",
+            "shap",
+            "tabular data"
+          ],
+          "shared_terms": [
+            "tabular",
+            "tabular data",
+            "shap",
+            "explainability shap",
+            "shap tabular",
+            "explainability"
+          ],
+          "shared_topics": [
+            {
+              "topic_id": 0,
+              "label": "learning / deep / embedding",
+              "top_terms": [
+                "learning",
+                "deep",
+                "embedding",
+                "network"
+              ],
+              "strength": 0.224
+            }
+          ]
+        }
+      ],
+      "common_topics": [
+        "finance",
+        "lstm",
+        "temporal measurements predicting future values",
+        "measurement devices",
+        "temporal measurements",
+        "anomaly discovery",
+        "explainability",
+        "shap"
+      ]
+    },
+    "disclaimer": "Suggestions for discovery only; not an assessment of research quality or a collaboration decision."
+  }
+}

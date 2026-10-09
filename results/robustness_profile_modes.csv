@@ -1,0 +1,10 @@
+profile_text,method,P@3,R@3,nDCG@3,MRR
+full,tfidf,0.875,0.262,0.691,1.0
+full,embedding,0.875,0.262,0.745,1.0
+full,hybrid,0.854,0.257,0.74,1.0
+titles_keywords,tfidf,0.979,0.299,0.792,1.0
+titles_keywords,embedding,0.958,0.29,0.773,1.0
+titles_keywords,hybrid,0.979,0.299,0.785,1.0
+interests_only,tfidf,0.562,0.164,0.488,0.859
+interests_only,embedding,0.562,0.164,0.475,0.891
+interests_only,hybrid,0.562,0.17,0.484,0.88

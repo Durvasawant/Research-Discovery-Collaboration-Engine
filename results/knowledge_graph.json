@@ -1,0 +1,3446 @@
+{
+  "nodes": [
+    {
+      "id": "T0",
+      "type": "Topic",
+      "label": "learning / deep / embedding"
+    },
+    {
+      "id": "T1",
+      "type": "Topic",
+      "label": "generative / generative ai / ai"
+    },
+    {
+      "id": "T2",
+      "type": "Topic",
+      "label": "linked / linked data / research information"
+    },
+    {
+      "id": "T3",
+      "type": "Topic",
+      "label": "time sery / sery / time"
+    },
+    {
+      "id": "T4",
+      "type": "Topic",
+      "label": "text / classification / text classification"
+    },
+    {
+      "id": "T5",
+      "type": "Topic",
+      "label": "access control / control / access"
+    },
+    {
+      "id": "F01",
+      "type": "Faculty",
+      "label": "Faculty 01",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F01-P0",
+      "type": "Paper",
+      "label": "Cross-Lingual Transfer for Indian Language Text Classification"
+    },
+    {
+      "id": "Method:transformer",
+      "type": "Method",
+      "label": "transformer"
+    },
+    {
+      "id": "Task:text classification",
+      "type": "Task",
+      "label": "text classification"
+    },
+    {
+      "id": "F01-P1",
+      "type": "Paper",
+      "label": "Relation Extraction from Scientific Text"
+    },
+    {
+      "id": "Task:information extraction",
+      "type": "Task",
+      "label": "information extraction"
+    },
+    {
+      "id": "Task:relation extraction",
+      "type": "Task",
+      "label": "relation extraction"
+    },
+    {
+      "id": "F01-P2",
+      "type": "Paper",
+      "label": "Aspect-Based Sentiment Analysis of Student Feedback"
+    },
+    {
+      "id": "Method:sentence embedding",
+      "type": "Method",
+      "label": "sentence embedding"
+    },
+    {
+      "id": "Task:sentiment analysis",
+      "type": "Task",
+      "label": "sentiment analysis"
+    },
+    {
+      "id": "F02",
+      "type": "Faculty",
+      "label": "Faculty 02",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F02-P3",
+      "type": "Paper",
+      "label": "Abstractive Summarisation of Long Documents"
+    },
+    {
+      "id": "Task:summarisation",
+      "type": "Task",
+      "label": "summarisation"
+    },
+    {
+      "id": "F02-P4",
+      "type": "Paper",
+      "label": "Cross-Lingual Transfer for Indian Language Text Classification"
+    },
+    {
+      "id": "F02-P5",
+      "type": "Paper",
+      "label": "Reasoning over Ontologies with Description Logics"
+    },
+    {
+      "id": "Method:owl",
+      "type": "Method",
+      "label": "owl"
+    },
+    {
+      "id": "Task:reasoning",
+      "type": "Task",
+      "label": "reasoning"
+    },
+    {
+      "id": "F03",
+      "type": "Faculty",
+      "label": "Faculty 03",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F03-P6",
+      "type": "Paper",
+      "label": "Transformer-based Named Entity Recognition for Low-Resource Domains"
+    },
+    {
+      "id": "Method:bert",
+      "type": "Method",
+      "label": "bert"
+    },
+    {
+      "id": "Task:named entity recognition",
+      "type": "Task",
+      "label": "named entity recognition"
+    },
+    {
+      "id": "Task:ner",
+      "type": "Task",
+      "label": "ner"
+    },
+    {
+      "id": "F03-P7",
+      "type": "Paper",
+      "label": "Cross-Lingual Transfer for Indian Language Text Classification"
+    },
+    {
+      "id": "F03-P8",
+      "type": "Paper",
+      "label": "Aspect-Based Sentiment Analysis of Student Feedback"
+    },
+    {
+      "id": "F04",
+      "type": "Faculty",
+      "label": "Faculty 04",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F04-P9",
+      "type": "Paper",
+      "label": "Aspect-Based opinion mining of Student Feedback"
+    },
+    {
+      "id": "F04-P10",
+      "type": "Paper",
+      "label": "Relation Extraction from Scientific Text"
+    },
+    {
+      "id": "F04-P11",
+      "type": "Paper",
+      "label": "Linked Data Integration for Research Information Systems"
+    },
+    {
+      "id": "Method:rdf",
+      "type": "Method",
+      "label": "rdf"
+    },
+    {
+      "id": "F05",
+      "type": "Faculty",
+      "label": "Faculty 05",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F05-P12",
+      "type": "Paper",
+      "label": "Linked Data Integration for Research Information Systems"
+    },
+    {
+      "id": "F05-P13",
+      "type": "Paper",
+      "label": "Automatic Knowledge Graph Construction from Text"
+    },
+    {
+      "id": "F05-P14",
+      "type": "Paper",
+      "label": "Reasoning over Ontologies with Description Logics"
+    },
+    {
+      "id": "F06",
+      "type": "Faculty",
+      "label": "Faculty 06",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F06-P15",
+      "type": "Paper",
+      "label": "Entity Linking for Knowledge Graph Population"
+    },
+    {
+      "id": "Task:entity linking",
+      "type": "Task",
+      "label": "entity linking"
+    },
+    {
+      "id": "F06-P16",
+      "type": "Paper",
+      "label": "Ontology-driven Semantic Search over Academic Data"
+    },
+    {
+      "id": "Method:sparql",
+      "type": "Method",
+      "label": "sparql"
+    },
+    {
+      "id": "Task:semantic search",
+      "type": "Task",
+      "label": "semantic search"
+    },
+    {
+      "id": "F06-P17",
+      "type": "Paper",
+      "label": "Transformer-based Named Entity Recognition for Low-Resource Domains"
+    },
+    {
+      "id": "F07",
+      "type": "Faculty",
+      "label": "Faculty 07",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F07-P18",
+      "type": "Paper",
+      "label": "Graph Embeddings for Link Prediction in Knowledge Graphs"
+    },
+    {
+      "id": "Method:graph embedding",
+      "type": "Method",
+      "label": "graph embedding"
+    },
+    {
+      "id": "Task:link prediction",
+      "type": "Task",
+      "label": "link prediction"
+    },
+    {
+      "id": "F07-P19",
+      "type": "Paper",
+      "label": "Linked Data Integration for Research Information Systems"
+    },
+    {
+      "id": "F07-P20",
+      "type": "Paper",
+      "label": "Ontology-driven Semantic Search over Academic Data"
+    },
+    {
+      "id": "F08",
+      "type": "Faculty",
+      "label": "Faculty 08",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F08-P21",
+      "type": "Paper",
+      "label": "Automatic network of linked facts Construction from Text"
+    },
+    {
+      "id": "F08-P22",
+      "type": "Paper",
+      "label": "Linked Data Integration for Research Information Systems"
+    },
+    {
+      "id": "F08-P23",
+      "type": "Paper",
+      "label": "Abstractive condensing of Long Documents"
+    },
+    {
+      "id": "F09",
+      "type": "Faculty",
+      "label": "Faculty 09",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F09-P24",
+      "type": "Paper",
+      "label": "Prompt Engineering Strategies for Reasoning Tasks"
+    },
+    {
+      "id": "Method:chain-of-thought",
+      "type": "Method",
+      "label": "chain-of-thought"
+    },
+    {
+      "id": "Method:prompting",
+      "type": "Method",
+      "label": "prompting"
+    },
+    {
+      "id": "F09-P25",
+      "type": "Paper",
+      "label": "Evaluating LLM-as-a-Judge for Essay Scoring"
+    },
+    {
+      "id": "Method:large language model",
+      "type": "Method",
+      "label": "large language model"
+    },
+    {
+      "id": "F09-P26",
+      "type": "Paper",
+      "label": "Parameter-Efficient Fine-Tuning of Large Language Models"
+    },
+    {
+      "id": "Method:adapter",
+      "type": "Method",
+      "label": "adapter"
+    },
+    {
+      "id": "Method:fine-tuning",
+      "type": "Method",
+      "label": "fine-tuning"
+    },
+    {
+      "id": "Method:lora",
+      "type": "Method",
+      "label": "lora"
+    },
+    {
+      "id": "F10",
+      "type": "Faculty",
+      "label": "Faculty 10",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F10-P27",
+      "type": "Paper",
+      "label": "Reducing Hallucination in Generative AI Systems"
+    },
+    {
+      "id": "Method:llm",
+      "type": "Method",
+      "label": "llm"
+    },
+    {
+      "id": "Task:hallucination",
+      "type": "Task",
+      "label": "hallucination"
+    },
+    {
+      "id": "F10-P28",
+      "type": "Paper",
+      "label": "Instruction Tuning and Alignment of Conversational Agents"
+    },
+    {
+      "id": "F10-P29",
+      "type": "Paper",
+      "label": "Prompt Injection Attacks on LLM Applications"
+    },
+    {
+      "id": "Task:prompt injection",
+      "type": "Task",
+      "label": "prompt injection"
+    },
+    {
+      "id": "F11",
+      "type": "Faculty",
+      "label": "Faculty 11",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F11-P30",
+      "type": "Paper",
+      "label": "Reducing Hallucination in Generative AI Systems"
+    },
+    {
+      "id": "F11-P31",
+      "type": "Paper",
+      "label": "Prompt Engineering Strategies for Reasoning Tasks"
+    },
+    {
+      "id": "F11-P32",
+      "type": "Paper",
+      "label": "Parameter-Efficient Fine-Tuning of Large Language Models"
+    },
+    {
+      "id": "F12",
+      "type": "Faculty",
+      "label": "Faculty 12",
+      "department": "Computer Science"
+    },
+    {
+      "id": "F12-P33",
+      "type": "Paper",
+      "label": "Reducing Hallucination in Generative AI Systems"
+    },
+    {
+      "id": "F12-P34",
+      "type": "Paper",
+      "label": "Parameter-Efficient Fine-Tuning of generative neural text engines"
+    },
+    {
+      "id": "F12-P35",
+      "type": "Paper",
+      "label": "Prompt Injection abuse attempts on generative text engine Applications"
+    },
+    {
+      "id": "F13",
+      "type": "Faculty",
+      "label": "Faculty 13",
+      "department": "Electronics"
+    },
+    {
+      "id": "F13-P36",
+      "type": "Paper",
+      "label": "U-Net Variants for Tumour Segmentation in MRI"
+    },
+    {
+      "id": "Method:u-net",
+      "type": "Method",
+      "label": "u-net"
+    },
+    {
+      "id": "Task:segmentation",
+      "type": "Task",
+      "label": "segmentation"
+    },
+    {
+      "id": "F13-P37",
+      "type": "Paper",
+      "label": "Action Recognition using 3D Convolutional Networks"
+    },
+    {
+      "id": "Method:3d cnn",
+      "type": "Method",
+      "label": "3d cnn"
+    },
+    {
+      "id": "Task:action recognition",
+      "type": "Task",
+      "label": "action recognition"
+    },
+    {
+      "id": "F13-P38",
+      "type": "Paper",
+      "label": "Multi-Object Tracking in Surveillance Video"
+    },
+    {
+      "id": "Task:object tracking",
+      "type": "Task",
+      "label": "object tracking"
+    },
+    {
+      "id": "F14",
+      "type": "Faculty",
+      "label": "Faculty 14",
+      "department": "Electronics"
+    },
+    {
+      "id": "F14-P39",
+      "type": "Paper",
+      "label": "Object Detection with Lightweight Convolutional Networks"
+    },
+    {
+      "id": "Method:cnn",
+      "type": "Method",
+      "label": "cnn"
+    },
+    {
+      "id": "Task:object detection",
+      "type": "Task",
+      "label": "object detection"
+    },
+    {
+      "id": "F14-P40",
+      "type": "Paper",
+      "label": "Multi-Object Tracking in Surveillance Video"
+    },
+    {
+      "id": "F14-P41",
+      "type": "Paper",
+      "label": "Clinical Named Entity Recognition in Electronic Health Records"
+    },
+    {
+      "id": "F15",
+      "type": "Faculty",
+      "label": "Faculty 15",
+      "department": "Electronics"
+    },
+    {
+      "id": "F15-P42",
+      "type": "Paper",
+      "label": "Self-Supervised Representation Learning for Images"
+    },
+    {
+      "id": "Method:contrastive learning",
+      "type": "Method",
+      "label": "contrastive learning"
+    },
+    {
+      "id": "Method:self-supervised learning",
+      "type": "Method",
+      "label": "self-supervised learning"
+    },
+    {
+      "id": "F15-P43",
+      "type": "Paper",
+      "label": "Action Recognition using 3D Convolutional Networks"
+    },
+    {
+      "id": "F15-P44",
+      "type": "Paper",
+      "label": "U-Net Variants for Tumour Segmentation in MRI"
+    },
+    {
+      "id": "F16",
+      "type": "Faculty",
+      "label": "Faculty 16",
+      "department": "Electronics"
+    },
+    {
+      "id": "F16-P45",
+      "type": "Paper",
+      "label": "Self-Supervised Representation Learning for pictures"
+    },
+    {
+      "id": "F16-P46",
+      "type": "Paper",
+      "label": "Action Recognition using 3D layered image filters"
+    },
+    {
+      "id": "F16-P47",
+      "type": "Paper",
+      "label": "Federated Learning for Privacy-Preserving care centre Analytics"
+    },
+    {
+      "id": "Method:federated learning",
+      "type": "Method",
+      "label": "federated learning"
+    },
+    {
+      "id": "F17",
+      "type": "Faculty",
+      "label": "Faculty 17",
+      "department": "Health Informatics"
+    },
+    {
+      "id": "F17-P48",
+      "type": "Paper",
+      "label": "Federated Learning for Privacy-Preserving Hospital Analytics"
+    },
+    {
+      "id": "F17-P49",
+      "type": "Paper",
+      "label": "Wearable Sensor Analytics for Cardiac Monitoring"
+    },
+    {
+      "id": "F17-P50",
+      "type": "Paper",
+      "label": "Deep Learning for Chest X-ray Diagnosis"
+    },
+    {
+      "id": "F18",
+      "type": "Faculty",
+      "label": "Faculty 18",
+      "department": "Health Informatics"
+    },
+    {
+      "id": "F18-P51",
+      "type": "Paper",
+      "label": "Wearable Sensor Analytics for Cardiac Monitoring"
+    },
+    {
+      "id": "F18-P52",
+      "type": "Paper",
+      "label": "Deep Learning for Chest X-ray Diagnosis"
+    },
+    {
+      "id": "F18-P53",
+      "type": "Paper",
+      "label": "Sentence Embeddings for Semantic Textual Similarity"
+    },
+    {
+      "id": "Method:tf-idf",
+      "type": "Method",
+      "label": "tf-idf"
+    },
+    {
+      "id": "Task:semantic textual similarity",
+      "type": "Task",
+      "label": "semantic textual similarity"
+    },
+    {
+      "id": "F19",
+      "type": "Faculty",
+      "label": "Faculty 19",
+      "department": "Health Informatics"
+    },
+    {
+      "id": "F19-P54",
+      "type": "Paper",
+      "label": "Federated Learning for Privacy-Preserving Hospital Analytics"
+    },
+    {
+      "id": "F19-P55",
+      "type": "Paper",
+      "label": "Predicting Diabetes Risk from Patient Records"
+    },
+    {
+      "id": "Method:gradient boosting",
+      "type": "Method",
+      "label": "gradient boosting"
+    },
+    {
+      "id": "Method:logistic regression",
+      "type": "Method",
+      "label": "logistic regression"
+    },
+    {
+      "id": "Task:disease prediction",
+      "type": "Task",
+      "label": "disease prediction"
+    },
+    {
+      "id": "F19-P56",
+      "type": "Paper",
+      "label": "Deep Learning for Chest X-ray Diagnosis"
+    },
+    {
+      "id": "F20",
+      "type": "Faculty",
+      "label": "Faculty 20",
+      "department": "Health Informatics"
+    },
+    {
+      "id": "F20-P57",
+      "type": "Paper",
+      "label": "condensing Discharge Summaries with Language Models"
+    },
+    {
+      "id": "F20-P58",
+      "type": "Paper",
+      "label": "Predicting Diabetes Risk from care recipient Records"
+    },
+    {
+      "id": "F20-P59",
+      "type": "Paper",
+      "label": "Transformer-based finding names of people and organisations in text for Low-Resource Domains"
+    },
+    {
+      "id": "F21",
+      "type": "Faculty",
+      "label": "Faculty 21",
+      "department": "Information Technology"
+    },
+    {
+      "id": "F21-P60",
+      "type": "Paper",
+      "label": "Blockchain-based Access Control for Sensitive Records"
+    },
+    {
+      "id": "F21-P61",
+      "type": "Paper",
+      "label": "Anomaly-based Network Intrusion Detection using Autoencoders"
+    },
+    {
+      "id": "Method:autoencoder",
+      "type": "Method",
+      "label": "autoencoder"
+    },
+    {
+      "id": "Task:anomaly detection",
+      "type": "Task",
+      "label": "anomaly detection"
+    },
+    {
+      "id": "Task:intrusion detection",
+      "type": "Task",
+      "label": "intrusion detection"
+    },
+    {
+      "id": "F21-P62",
+      "type": "Paper",
+      "label": "Phishing Email Detection with Text Classification"
+    },
+    {
+      "id": "Task:phishing",
+      "type": "Task",
+      "label": "phishing"
+    },
+    {
+      "id": "F22",
+      "type": "Faculty",
+      "label": "Faculty 22",
+      "department": "Information Technology"
+    },
+    {
+      "id": "F22-P63",
+      "type": "Paper",
+      "label": "Adversarial Attacks on Malware Classifiers"
+    },
+    {
+      "id": "Task:malware",
+      "type": "Task",
+      "label": "malware"
+    },
+    {
+      "id": "F22-P64",
+      "type": "Paper",
+      "label": "Blockchain-based Access Control for Sensitive Records"
+    },
+    {
+      "id": "F22-P65",
+      "type": "Paper",
+      "label": "Prompt Engineering Strategies for Reasoning Tasks"
+    },
+    {
+      "id": "F23",
+      "type": "Faculty",
+      "label": "Faculty 23",
+      "department": "Information Technology"
+    },
+    {
+      "id": "F23-P66",
+      "type": "Paper",
+      "label": "Prompt Injection Attacks on LLM Applications"
+    },
+    {
+      "id": "F23-P67",
+      "type": "Paper",
+      "label": "Anomaly-based Network Intrusion Detection using Autoencoders"
+    },
+    {
+      "id": "F23-P68",
+      "type": "Paper",
+      "label": "Adversarial Attacks on Malware Classifiers"
+    },
+    {
+      "id": "F24",
+      "type": "Faculty",
+      "label": "Faculty 24",
+      "department": "Information Technology"
+    },
+    {
+      "id": "F24-P69",
+      "type": "Paper",
+      "label": "Anomaly-based Network unauthorised access discovery using Autoencoders"
+    },
+    {
+      "id": "F24-P70",
+      "type": "Paper",
+      "label": "Blockchain-based Access Control for Sensitive Records"
+    },
+    {
+      "id": "F24-P71",
+      "type": "Paper",
+      "label": "Reducing Hallucination in Generative AI Systems"
+    },
+    {
+      "id": "F25",
+      "type": "Faculty",
+      "label": "Faculty 25",
+      "department": "Information Technology"
+    },
+    {
+      "id": "F25-P72",
+      "type": "Paper",
+      "label": "Edge Computing for Real-Time Industrial Analytics"
+    },
+    {
+      "id": "F25-P73",
+      "type": "Paper",
+      "label": "Smart Campus Energy Monitoring using IoT Sensors"
+    },
+    {
+      "id": "F25-P74",
+      "type": "Paper",
+      "label": "LSTM-based Forecasting of Sensor Time Series"
+    },
+    {
+      "id": "Method:arima",
+      "type": "Method",
+      "label": "arima"
+    },
+    {
+      "id": "Method:lstm",
+      "type": "Method",
+      "label": "lstm"
+    },
+    {
+      "id": "Task:time series forecasting",
+      "type": "Task",
+      "label": "time series forecasting"
+    },
+    {
+      "id": "F26",
+      "type": "Faculty",
+      "label": "Faculty 26",
+      "department": "Information Technology"
+    },
+    {
+      "id": "F26-P75",
+      "type": "Paper",
+      "label": "LSTM-based Forecasting of Sensor Time Series"
+    },
+    {
+      "id": "F26-P76",
+      "type": "Paper",
+      "label": "Digital Twins for Smart Building Management"
+    },
+    {
+      "id": "F26-P77",
+      "type": "Paper",
+      "label": "Graph Clustering for Community Detection in Collaboration Networks"
+    },
+    {
+      "id": "Task:community detection",
+      "type": "Task",
+      "label": "community detection"
+    },
+    {
+      "id": "F27",
+      "type": "Faculty",
+      "label": "Faculty 27",
+      "department": "Information Technology"
+    },
+    {
+      "id": "F27-P78",
+      "type": "Paper",
+      "label": "Edge Computing for Real-Time Industrial Analytics"
+    },
+    {
+      "id": "F27-P79",
+      "type": "Paper",
+      "label": "Energy-Efficient Routing in Wireless Sensor Networks"
+    },
+    {
+      "id": "F27-P80",
+      "type": "Paper",
+      "label": "LSTM-based Forecasting of Sensor Time Series"
+    },
+    {
+      "id": "F28",
+      "type": "Faculty",
+      "label": "Faculty 28",
+      "department": "Information Technology"
+    },
+    {
+      "id": "F28-P81",
+      "type": "Paper",
+      "label": "LSTM-based predicting future values of measurement device temporal measurements"
+    },
+    {
+      "id": "F28-P82",
+      "type": "Paper",
+      "label": "Smart Campus Energy Monitoring using connected devices measurement devices"
+    },
+    {
+      "id": "F28-P83",
+      "type": "Paper",
+      "label": "temporal measurements Anomaly discovery in Financial Data"
+    },
+    {
+      "id": "F29",
+      "type": "Faculty",
+      "label": "Faculty 29",
+      "department": "Data Science"
+    },
+    {
+      "id": "F29-P84",
+      "type": "Paper",
+      "label": "Recommender Systems with Implicit Feedback"
+    },
+    {
+      "id": "Method:matrix factorisation",
+      "type": "Method",
+      "label": "matrix factorisation"
+    },
+    {
+      "id": "Task:recommender systems",
+      "type": "Task",
+      "label": "recommender systems"
+    },
+    {
+      "id": "F29-P85",
+      "type": "Paper",
+      "label": "Time Series Anomaly Detection in Financial Data"
+    },
+    {
+      "id": "F29-P86",
+      "type": "Paper",
+      "label": "Learning Analytics for Predicting Student Dropout"
+    },
+    {
+      "id": "Method:tree ensemble",
+      "type": "Method",
+      "label": "tree ensemble"
+    },
+    {
+      "id": "Task:dropout prediction",
+      "type": "Task",
+      "label": "dropout prediction"
+    },
+    {
+      "id": "F30",
+      "type": "Faculty",
+      "label": "Faculty 30",
+      "department": "Data Science"
+    },
+    {
+      "id": "F30-P87",
+      "type": "Paper",
+      "label": "Time Series Anomaly Detection in Financial Data"
+    },
+    {
+      "id": "F30-P88",
+      "type": "Paper",
+      "label": "Learning Analytics for Predicting Student Dropout"
+    },
+    {
+      "id": "F30-P89",
+      "type": "Paper",
+      "label": "Energy-Efficient Routing in Wireless Sensor Networks"
+    },
+    {
+      "id": "F31",
+      "type": "Faculty",
+      "label": "Faculty 31",
+      "department": "Data Science"
+    },
+    {
+      "id": "F31-P90",
+      "type": "Paper",
+      "label": "Graph Clustering for Community Detection in Collaboration Networks"
+    },
+    {
+      "id": "F31-P91",
+      "type": "Paper",
+      "label": "Recommender Systems with Implicit Feedback"
+    },
+    {
+      "id": "F31-P92",
+      "type": "Paper",
+      "label": "Explainable Machine Learning for Tabular Data"
+    },
+    {
+      "id": "Method:shap",
+      "type": "Method",
+      "label": "shap"
+    },
+    {
+      "id": "F32",
+      "type": "Faculty",
+      "label": "Faculty 32",
+      "department": "Data Science"
+    },
+    {
+      "id": "F32-P93",
+      "type": "Paper",
+      "label": "Explainable Machine Learning for Tabular Data"
+    },
+    {
+      "id": "F32-P94",
+      "type": "Paper",
+      "label": "temporal measurements Anomaly discovery in Financial Data"
+    },
+    {
+      "id": "F32-P95",
+      "type": "Paper",
+      "label": "LSTM-based predicting future values of measurement device temporal measurements"
+    }
+  ],
+  "edges": [
+    {
+      "source": "F01",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.94
+    },
+    {
+      "source": "F01",
+      "target": "F01-P0",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F01",
+      "target": "F01-P1",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F01",
+      "target": "F01-P2",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F01",
+      "target": "F04",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.751
+    },
+    {
+      "source": "F01",
+      "target": "F03",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.475
+    },
+    {
+      "source": "F01-P0",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F01-P0",
+      "target": "Method:transformer",
+      "rel": "USES"
+    },
+    {
+      "source": "F01-P0",
+      "target": "Task:text classification",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F01-P1",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.824
+    },
+    {
+      "source": "F01-P1",
+      "target": "Task:information extraction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F01-P1",
+      "target": "Task:relation extraction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F01-P2",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.996
+    },
+    {
+      "source": "F01-P2",
+      "target": "Method:sentence embedding",
+      "rel": "USES"
+    },
+    {
+      "source": "F01-P2",
+      "target": "Task:sentiment analysis",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F01-P2",
+      "target": "Task:text classification",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F02",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.634
+    },
+    {
+      "source": "F02",
+      "target": "T1",
+      "rel": "WORKS_ON",
+      "weight": 0.218
+    },
+    {
+      "source": "F02",
+      "target": "F02-P3",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F02",
+      "target": "F02-P4",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F02",
+      "target": "F02-P5",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F02",
+      "target": "F01",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.41
+    },
+    {
+      "source": "F02",
+      "target": "F03",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.375
+    },
+    {
+      "source": "F02-P3",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.903
+    },
+    {
+      "source": "F02-P3",
+      "target": "Method:transformer",
+      "rel": "USES"
+    },
+    {
+      "source": "F02-P3",
+      "target": "Task:summarisation",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F02-P4",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F02-P4",
+      "target": "Method:transformer",
+      "rel": "USES"
+    },
+    {
+      "source": "F02-P4",
+      "target": "Task:text classification",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F02-P5",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.567
+    },
+    {
+      "source": "F02-P5",
+      "target": "Method:owl",
+      "rel": "USES"
+    },
+    {
+      "source": "F02-P5",
+      "target": "Task:reasoning",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F03",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.593
+    },
+    {
+      "source": "F03",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.407
+    },
+    {
+      "source": "F03",
+      "target": "F03-P6",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F03",
+      "target": "F03-P7",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F03",
+      "target": "F03-P8",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F03",
+      "target": "F07",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.431
+    },
+    {
+      "source": "F03-P6",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.534
+    },
+    {
+      "source": "F03-P6",
+      "target": "Method:bert",
+      "rel": "USES"
+    },
+    {
+      "source": "F03-P6",
+      "target": "Method:transformer",
+      "rel": "USES"
+    },
+    {
+      "source": "F03-P6",
+      "target": "Task:named entity recognition",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F03-P6",
+      "target": "Task:ner",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F03-P7",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.717
+    },
+    {
+      "source": "F03-P7",
+      "target": "Method:transformer",
+      "rel": "USES"
+    },
+    {
+      "source": "F03-P7",
+      "target": "Task:text classification",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F03-P8",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.596
+    },
+    {
+      "source": "F03-P8",
+      "target": "Method:sentence embedding",
+      "rel": "USES"
+    },
+    {
+      "source": "F03-P8",
+      "target": "Task:sentiment analysis",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F03-P8",
+      "target": "Task:text classification",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F04",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.602
+    },
+    {
+      "source": "F04",
+      "target": "T2",
+      "rel": "WORKS_ON",
+      "weight": 0.382
+    },
+    {
+      "source": "F04",
+      "target": "F04-P9",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F04",
+      "target": "F04-P10",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F04",
+      "target": "F04-P11",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F04",
+      "target": "F08",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.385
+    },
+    {
+      "source": "F04-P9",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.981
+    },
+    {
+      "source": "F04-P10",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.824
+    },
+    {
+      "source": "F04-P10",
+      "target": "Task:information extraction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F04-P10",
+      "target": "Task:relation extraction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F04-P11",
+      "target": "T2",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F04-P11",
+      "target": "Method:rdf",
+      "rel": "USES"
+    },
+    {
+      "source": "F05",
+      "target": "T2",
+      "rel": "WORKS_ON",
+      "weight": 0.502
+    },
+    {
+      "source": "F05",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.27
+    },
+    {
+      "source": "F05",
+      "target": "F05-P12",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F05",
+      "target": "F05-P13",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F05",
+      "target": "F05-P14",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F05",
+      "target": "F06",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.632
+    },
+    {
+      "source": "F05",
+      "target": "F07",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.531
+    },
+    {
+      "source": "F05-P12",
+      "target": "T2",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F05-P12",
+      "target": "Method:rdf",
+      "rel": "USES"
+    },
+    {
+      "source": "F05-P13",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.81
+    },
+    {
+      "source": "F05-P13",
+      "target": "Task:information extraction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F05-P13",
+      "target": "Task:named entity recognition",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F05-P13",
+      "target": "Task:ner",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F05-P13",
+      "target": "Task:relation extraction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F05-P14",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.567
+    },
+    {
+      "source": "F05-P14",
+      "target": "Method:owl",
+      "rel": "USES"
+    },
+    {
+      "source": "F05-P14",
+      "target": "Task:reasoning",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F06",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.52
+    },
+    {
+      "source": "F06",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.268
+    },
+    {
+      "source": "F06",
+      "target": "F06-P15",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F06",
+      "target": "F06-P16",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F06",
+      "target": "F06-P17",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F06",
+      "target": "F07",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.396
+    },
+    {
+      "source": "F06-P15",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.642
+    },
+    {
+      "source": "F06-P15",
+      "target": "Task:entity linking",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F06-P16",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.4
+    },
+    {
+      "source": "F06-P16",
+      "target": "Method:sparql",
+      "rel": "USES"
+    },
+    {
+      "source": "F06-P16",
+      "target": "Task:semantic search",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F06-P17",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.919
+    },
+    {
+      "source": "F06-P17",
+      "target": "Method:bert",
+      "rel": "USES"
+    },
+    {
+      "source": "F06-P17",
+      "target": "Method:transformer",
+      "rel": "USES"
+    },
+    {
+      "source": "F06-P17",
+      "target": "Task:named entity recognition",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F06-P17",
+      "target": "Task:ner",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F07",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.73
+    },
+    {
+      "source": "F07",
+      "target": "T2",
+      "rel": "WORKS_ON",
+      "weight": 0.242
+    },
+    {
+      "source": "F07",
+      "target": "F07-P18",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F07",
+      "target": "F07-P19",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F07",
+      "target": "F07-P20",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F07",
+      "target": "F31",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.475
+    },
+    {
+      "source": "F07-P18",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.993
+    },
+    {
+      "source": "F07-P18",
+      "target": "Method:graph embedding",
+      "rel": "USES"
+    },
+    {
+      "source": "F07-P18",
+      "target": "Task:link prediction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F07-P19",
+      "target": "T2",
+      "rel": "RELATED_TO",
+      "weight": 0.67
+    },
+    {
+      "source": "F07-P19",
+      "target": "Method:rdf",
+      "rel": "USES"
+    },
+    {
+      "source": "F07-P20",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.866
+    },
+    {
+      "source": "F07-P20",
+      "target": "Method:sparql",
+      "rel": "USES"
+    },
+    {
+      "source": "F07-P20",
+      "target": "Task:semantic search",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F08",
+      "target": "T2",
+      "rel": "WORKS_ON",
+      "weight": 0.463
+    },
+    {
+      "source": "F08",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.437
+    },
+    {
+      "source": "F08",
+      "target": "F08-P21",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F08",
+      "target": "F08-P22",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F08",
+      "target": "F08-P23",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F08",
+      "target": "F05",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.476
+    },
+    {
+      "source": "F08-P21",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.607
+    },
+    {
+      "source": "F08-P21",
+      "target": "Task:information extraction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F08-P21",
+      "target": "Task:ner",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F08-P21",
+      "target": "Task:relation extraction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F08-P22",
+      "target": "T2",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F08-P22",
+      "target": "Method:rdf",
+      "rel": "USES"
+    },
+    {
+      "source": "F08-P23",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.704
+    },
+    {
+      "source": "F09",
+      "target": "T1",
+      "rel": "WORKS_ON",
+      "weight": 0.738
+    },
+    {
+      "source": "F09",
+      "target": "F09-P24",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F09",
+      "target": "F09-P25",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F09",
+      "target": "F09-P26",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F09",
+      "target": "F11",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.719
+    },
+    {
+      "source": "F09",
+      "target": "F10",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.418
+    },
+    {
+      "source": "F09-P24",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F09-P24",
+      "target": "Method:chain-of-thought",
+      "rel": "USES"
+    },
+    {
+      "source": "F09-P24",
+      "target": "Method:prompting",
+      "rel": "USES"
+    },
+    {
+      "source": "F09-P24",
+      "target": "Task:reasoning",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F09-P25",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.564
+    },
+    {
+      "source": "F09-P25",
+      "target": "Method:large language model",
+      "rel": "USES"
+    },
+    {
+      "source": "F09-P26",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.65
+    },
+    {
+      "source": "F09-P26",
+      "target": "Method:adapter",
+      "rel": "USES"
+    },
+    {
+      "source": "F09-P26",
+      "target": "Method:fine-tuning",
+      "rel": "USES"
+    },
+    {
+      "source": "F09-P26",
+      "target": "Method:large language model",
+      "rel": "USES"
+    },
+    {
+      "source": "F09-P26",
+      "target": "Method:lora",
+      "rel": "USES"
+    },
+    {
+      "source": "F10",
+      "target": "T1",
+      "rel": "WORKS_ON",
+      "weight": 0.648
+    },
+    {
+      "source": "F10",
+      "target": "F10-P27",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F10",
+      "target": "F10-P28",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F10",
+      "target": "F10-P29",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F10",
+      "target": "F12",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.492
+    },
+    {
+      "source": "F10-P27",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F10-P27",
+      "target": "Method:large language model",
+      "rel": "USES"
+    },
+    {
+      "source": "F10-P27",
+      "target": "Method:llm",
+      "rel": "USES"
+    },
+    {
+      "source": "F10-P27",
+      "target": "Method:prompting",
+      "rel": "USES"
+    },
+    {
+      "source": "F10-P27",
+      "target": "Task:hallucination",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F10-P28",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.319
+    },
+    {
+      "source": "F10-P29",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.627
+    },
+    {
+      "source": "F10-P29",
+      "target": "Method:large language model",
+      "rel": "USES"
+    },
+    {
+      "source": "F10-P29",
+      "target": "Method:llm",
+      "rel": "USES"
+    },
+    {
+      "source": "F10-P29",
+      "target": "Task:prompt injection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F11",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.505
+    },
+    {
+      "source": "F11",
+      "target": "T1",
+      "rel": "WORKS_ON",
+      "weight": 0.47
+    },
+    {
+      "source": "F11",
+      "target": "F11-P30",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F11",
+      "target": "F11-P31",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F11",
+      "target": "F11-P32",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F11",
+      "target": "F23",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.459
+    },
+    {
+      "source": "F11-P30",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.558
+    },
+    {
+      "source": "F11-P30",
+      "target": "Method:large language model",
+      "rel": "USES"
+    },
+    {
+      "source": "F11-P30",
+      "target": "Method:llm",
+      "rel": "USES"
+    },
+    {
+      "source": "F11-P30",
+      "target": "Method:prompting",
+      "rel": "USES"
+    },
+    {
+      "source": "F11-P30",
+      "target": "Task:hallucination",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F11-P31",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.611
+    },
+    {
+      "source": "F11-P31",
+      "target": "Method:chain-of-thought",
+      "rel": "USES"
+    },
+    {
+      "source": "F11-P31",
+      "target": "Method:prompting",
+      "rel": "USES"
+    },
+    {
+      "source": "F11-P31",
+      "target": "Task:reasoning",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F11-P32",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.689
+    },
+    {
+      "source": "F11-P32",
+      "target": "Method:adapter",
+      "rel": "USES"
+    },
+    {
+      "source": "F11-P32",
+      "target": "Method:fine-tuning",
+      "rel": "USES"
+    },
+    {
+      "source": "F11-P32",
+      "target": "Method:large language model",
+      "rel": "USES"
+    },
+    {
+      "source": "F11-P32",
+      "target": "Method:lora",
+      "rel": "USES"
+    },
+    {
+      "source": "F12",
+      "target": "T1",
+      "rel": "WORKS_ON",
+      "weight": 0.836
+    },
+    {
+      "source": "F12",
+      "target": "F12-P33",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F12",
+      "target": "F12-P34",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F12",
+      "target": "F12-P35",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F12",
+      "target": "F24",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.435
+    },
+    {
+      "source": "F12-P33",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.983
+    },
+    {
+      "source": "F12-P33",
+      "target": "Method:prompting",
+      "rel": "USES"
+    },
+    {
+      "source": "F12-P33",
+      "target": "Task:hallucination",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F12-P34",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.749
+    },
+    {
+      "source": "F12-P34",
+      "target": "Method:adapter",
+      "rel": "USES"
+    },
+    {
+      "source": "F12-P34",
+      "target": "Method:fine-tuning",
+      "rel": "USES"
+    },
+    {
+      "source": "F12-P34",
+      "target": "Method:lora",
+      "rel": "USES"
+    },
+    {
+      "source": "F12-P35",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.775
+    },
+    {
+      "source": "F12-P35",
+      "target": "Task:prompt injection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F13",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.813
+    },
+    {
+      "source": "F13",
+      "target": "F13-P36",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F13",
+      "target": "F13-P37",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F13",
+      "target": "F13-P38",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F13",
+      "target": "F14",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.642
+    },
+    {
+      "source": "F13",
+      "target": "F15",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.528
+    },
+    {
+      "source": "F13-P36",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F13-P36",
+      "target": "Method:u-net",
+      "rel": "USES"
+    },
+    {
+      "source": "F13-P36",
+      "target": "Task:segmentation",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F13-P37",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.99
+    },
+    {
+      "source": "F13-P37",
+      "target": "Method:3d cnn",
+      "rel": "USES"
+    },
+    {
+      "source": "F13-P37",
+      "target": "Task:action recognition",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F13-P38",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.448
+    },
+    {
+      "source": "F13-P38",
+      "target": "Task:object tracking",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F14",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.408
+    },
+    {
+      "source": "F14",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.265
+    },
+    {
+      "source": "F14",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.216
+    },
+    {
+      "source": "F14",
+      "target": "F14-P39",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F14",
+      "target": "F14-P40",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F14",
+      "target": "F14-P41",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F14",
+      "target": "F18",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.264
+    },
+    {
+      "source": "F14-P39",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.777
+    },
+    {
+      "source": "F14-P39",
+      "target": "Method:cnn",
+      "rel": "USES"
+    },
+    {
+      "source": "F14-P39",
+      "target": "Task:object detection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F14-P40",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.448
+    },
+    {
+      "source": "F14-P40",
+      "target": "Task:object tracking",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F14-P41",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.764
+    },
+    {
+      "source": "F14-P41",
+      "target": "Method:transformer",
+      "rel": "USES"
+    },
+    {
+      "source": "F14-P41",
+      "target": "Task:named entity recognition",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F14-P41",
+      "target": "Task:ner",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F15",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.997
+    },
+    {
+      "source": "F15",
+      "target": "F15-P42",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F15",
+      "target": "F15-P43",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F15",
+      "target": "F15-P44",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F15",
+      "target": "F16",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.633
+    },
+    {
+      "source": "F15-P42",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F15-P42",
+      "target": "Method:contrastive learning",
+      "rel": "USES"
+    },
+    {
+      "source": "F15-P42",
+      "target": "Method:self-supervised learning",
+      "rel": "USES"
+    },
+    {
+      "source": "F15-P43",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.992
+    },
+    {
+      "source": "F15-P43",
+      "target": "Method:3d cnn",
+      "rel": "USES"
+    },
+    {
+      "source": "F15-P43",
+      "target": "Task:action recognition",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F15-P44",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F15-P44",
+      "target": "Method:u-net",
+      "rel": "USES"
+    },
+    {
+      "source": "F15-P44",
+      "target": "Task:segmentation",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F16",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.757
+    },
+    {
+      "source": "F16",
+      "target": "T5",
+      "rel": "WORKS_ON",
+      "weight": 0.205
+    },
+    {
+      "source": "F16",
+      "target": "F16-P45",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F16",
+      "target": "F16-P46",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F16",
+      "target": "F16-P47",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F16",
+      "target": "F13",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.467
+    },
+    {
+      "source": "F16-P45",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.961
+    },
+    {
+      "source": "F16-P45",
+      "target": "Method:contrastive learning",
+      "rel": "USES"
+    },
+    {
+      "source": "F16-P45",
+      "target": "Method:self-supervised learning",
+      "rel": "USES"
+    },
+    {
+      "source": "F16-P46",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.973
+    },
+    {
+      "source": "F16-P46",
+      "target": "Task:action recognition",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F16-P47",
+      "target": "T5",
+      "rel": "RELATED_TO",
+      "weight": 0.615
+    },
+    {
+      "source": "F16-P47",
+      "target": "Method:federated learning",
+      "rel": "USES"
+    },
+    {
+      "source": "F17",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.47
+    },
+    {
+      "source": "F17",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.241
+    },
+    {
+      "source": "F17",
+      "target": "F17-P48",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F17",
+      "target": "F17-P49",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F17",
+      "target": "F17-P50",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F17",
+      "target": "F19",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.672
+    },
+    {
+      "source": "F17",
+      "target": "F18",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.559
+    },
+    {
+      "source": "F17-P48",
+      "target": "T5",
+      "rel": "RELATED_TO",
+      "weight": 0.576
+    },
+    {
+      "source": "F17-P48",
+      "target": "Method:federated learning",
+      "rel": "USES"
+    },
+    {
+      "source": "F17-P49",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.723
+    },
+    {
+      "source": "F17-P50",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F17-P50",
+      "target": "Method:cnn",
+      "rel": "USES"
+    },
+    {
+      "source": "F18",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.547
+    },
+    {
+      "source": "F18",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.241
+    },
+    {
+      "source": "F18",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.212
+    },
+    {
+      "source": "F18",
+      "target": "F18-P51",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F18",
+      "target": "F18-P52",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F18",
+      "target": "F18-P53",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F18",
+      "target": "F03",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.38
+    },
+    {
+      "source": "F18-P51",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.723
+    },
+    {
+      "source": "F18-P52",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F18-P52",
+      "target": "Method:cnn",
+      "rel": "USES"
+    },
+    {
+      "source": "F18-P53",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.621
+    },
+    {
+      "source": "F18-P53",
+      "target": "Method:sentence embedding",
+      "rel": "USES"
+    },
+    {
+      "source": "F18-P53",
+      "target": "Method:tf-idf",
+      "rel": "USES"
+    },
+    {
+      "source": "F18-P53",
+      "target": "Task:semantic textual similarity",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F19",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.887
+    },
+    {
+      "source": "F19",
+      "target": "F19-P54",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F19",
+      "target": "F19-P55",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F19",
+      "target": "F19-P56",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F19",
+      "target": "F31",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.454
+    },
+    {
+      "source": "F19-P54",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.787
+    },
+    {
+      "source": "F19-P54",
+      "target": "Method:federated learning",
+      "rel": "USES"
+    },
+    {
+      "source": "F19-P55",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.874
+    },
+    {
+      "source": "F19-P55",
+      "target": "Method:gradient boosting",
+      "rel": "USES"
+    },
+    {
+      "source": "F19-P55",
+      "target": "Method:logistic regression",
+      "rel": "USES"
+    },
+    {
+      "source": "F19-P55",
+      "target": "Task:disease prediction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F19-P56",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F19-P56",
+      "target": "Method:cnn",
+      "rel": "USES"
+    },
+    {
+      "source": "F20",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.54
+    },
+    {
+      "source": "F20",
+      "target": "F20-P57",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F20",
+      "target": "F20-P58",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F20",
+      "target": "F20-P59",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F20",
+      "target": "F17",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.342
+    },
+    {
+      "source": "F20",
+      "target": "F08",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.257
+    },
+    {
+      "source": "F20-P57",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.696
+    },
+    {
+      "source": "F20-P58",
+      "target": "T5",
+      "rel": "RELATED_TO",
+      "weight": 0.489
+    },
+    {
+      "source": "F20-P58",
+      "target": "Method:gradient boosting",
+      "rel": "USES"
+    },
+    {
+      "source": "F20-P58",
+      "target": "Method:logistic regression",
+      "rel": "USES"
+    },
+    {
+      "source": "F20-P58",
+      "target": "Task:disease prediction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F20-P59",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.923
+    },
+    {
+      "source": "F20-P59",
+      "target": "Method:bert",
+      "rel": "USES"
+    },
+    {
+      "source": "F20-P59",
+      "target": "Task:ner",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F21",
+      "target": "T5",
+      "rel": "WORKS_ON",
+      "weight": 0.373
+    },
+    {
+      "source": "F21",
+      "target": "T4",
+      "rel": "WORKS_ON",
+      "weight": 0.325
+    },
+    {
+      "source": "F21",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.227
+    },
+    {
+      "source": "F21",
+      "target": "F21-P60",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F21",
+      "target": "F21-P61",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F21",
+      "target": "F21-P62",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F21",
+      "target": "F24",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.607
+    },
+    {
+      "source": "F21",
+      "target": "F23",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.474
+    },
+    {
+      "source": "F21-P60",
+      "target": "T5",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F21-P61",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.638
+    },
+    {
+      "source": "F21-P61",
+      "target": "Method:autoencoder",
+      "rel": "USES"
+    },
+    {
+      "source": "F21-P61",
+      "target": "Task:anomaly detection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F21-P61",
+      "target": "Task:intrusion detection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F21-P62",
+      "target": "T4",
+      "rel": "RELATED_TO",
+      "weight": 0.948
+    },
+    {
+      "source": "F21-P62",
+      "target": "Method:transformer",
+      "rel": "USES"
+    },
+    {
+      "source": "F21-P62",
+      "target": "Task:phishing",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F21-P62",
+      "target": "Task:text classification",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F22",
+      "target": "T5",
+      "rel": "WORKS_ON",
+      "weight": 0.333
+    },
+    {
+      "source": "F22",
+      "target": "T1",
+      "rel": "WORKS_ON",
+      "weight": 0.333
+    },
+    {
+      "source": "F22",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.299
+    },
+    {
+      "source": "F22",
+      "target": "F22-P63",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F22",
+      "target": "F22-P64",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F22",
+      "target": "F22-P65",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F22",
+      "target": "F23",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.518
+    },
+    {
+      "source": "F22",
+      "target": "F10",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.404
+    },
+    {
+      "source": "F22-P63",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.896
+    },
+    {
+      "source": "F22-P63",
+      "target": "Task:malware",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F22-P64",
+      "target": "T5",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F22-P65",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F22-P65",
+      "target": "Method:chain-of-thought",
+      "rel": "USES"
+    },
+    {
+      "source": "F22-P65",
+      "target": "Method:prompting",
+      "rel": "USES"
+    },
+    {
+      "source": "F22-P65",
+      "target": "Task:reasoning",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F23",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.816
+    },
+    {
+      "source": "F23",
+      "target": "F23-P66",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F23",
+      "target": "F23-P67",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F23",
+      "target": "F23-P68",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F23-P66",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.744
+    },
+    {
+      "source": "F23-P66",
+      "target": "Method:large language model",
+      "rel": "USES"
+    },
+    {
+      "source": "F23-P66",
+      "target": "Method:llm",
+      "rel": "USES"
+    },
+    {
+      "source": "F23-P66",
+      "target": "Task:prompt injection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F23-P67",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.71
+    },
+    {
+      "source": "F23-P67",
+      "target": "Method:autoencoder",
+      "rel": "USES"
+    },
+    {
+      "source": "F23-P67",
+      "target": "Task:anomaly detection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F23-P67",
+      "target": "Task:intrusion detection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F23-P68",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.995
+    },
+    {
+      "source": "F23-P68",
+      "target": "Task:malware",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F24",
+      "target": "T5",
+      "rel": "WORKS_ON",
+      "weight": 0.47
+    },
+    {
+      "source": "F24",
+      "target": "T1",
+      "rel": "WORKS_ON",
+      "weight": 0.332
+    },
+    {
+      "source": "F24",
+      "target": "F24-P69",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F24",
+      "target": "F24-P70",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F24",
+      "target": "F24-P71",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F24-P69",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.479
+    },
+    {
+      "source": "F24-P69",
+      "target": "Method:autoencoder",
+      "rel": "USES"
+    },
+    {
+      "source": "F24-P70",
+      "target": "T5",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F24-P71",
+      "target": "T1",
+      "rel": "RELATED_TO",
+      "weight": 0.983
+    },
+    {
+      "source": "F24-P71",
+      "target": "Method:prompting",
+      "rel": "USES"
+    },
+    {
+      "source": "F24-P71",
+      "target": "Task:hallucination",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F25",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.757
+    },
+    {
+      "source": "F25",
+      "target": "F25-P72",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F25",
+      "target": "F25-P73",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F25",
+      "target": "F25-P74",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F25",
+      "target": "F27",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.719
+    },
+    {
+      "source": "F25",
+      "target": "F26",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.567
+    },
+    {
+      "source": "F25-P72",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.476
+    },
+    {
+      "source": "F25-P73",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.829
+    },
+    {
+      "source": "F25-P74",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F25-P74",
+      "target": "Method:arima",
+      "rel": "USES"
+    },
+    {
+      "source": "F25-P74",
+      "target": "Method:lstm",
+      "rel": "USES"
+    },
+    {
+      "source": "F25-P74",
+      "target": "Task:time series forecasting",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F26",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.56
+    },
+    {
+      "source": "F26",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.212
+    },
+    {
+      "source": "F26",
+      "target": "F26-P75",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F26",
+      "target": "F26-P76",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F26",
+      "target": "F26-P77",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F26",
+      "target": "F27",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.43
+    },
+    {
+      "source": "F26-P75",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F26-P75",
+      "target": "Method:arima",
+      "rel": "USES"
+    },
+    {
+      "source": "F26-P75",
+      "target": "Method:lstm",
+      "rel": "USES"
+    },
+    {
+      "source": "F26-P75",
+      "target": "Task:time series forecasting",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F26-P76",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.574
+    },
+    {
+      "source": "F26-P77",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.636
+    },
+    {
+      "source": "F26-P77",
+      "target": "Task:community detection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F27",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.724
+    },
+    {
+      "source": "F27",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.276
+    },
+    {
+      "source": "F27",
+      "target": "F27-P78",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F27",
+      "target": "F27-P79",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F27",
+      "target": "F27-P80",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F27-P78",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.908
+    },
+    {
+      "source": "F27-P79",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.853
+    },
+    {
+      "source": "F27-P80",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.589
+    },
+    {
+      "source": "F27-P80",
+      "target": "Method:arima",
+      "rel": "USES"
+    },
+    {
+      "source": "F27-P80",
+      "target": "Method:lstm",
+      "rel": "USES"
+    },
+    {
+      "source": "F27-P80",
+      "target": "Task:time series forecasting",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F28",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.93
+    },
+    {
+      "source": "F28",
+      "target": "F28-P81",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F28",
+      "target": "F28-P82",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F28",
+      "target": "F28-P83",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F28",
+      "target": "F32",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.757
+    },
+    {
+      "source": "F28",
+      "target": "F25",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.406
+    },
+    {
+      "source": "F28-P81",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F28-P81",
+      "target": "Method:arima",
+      "rel": "USES"
+    },
+    {
+      "source": "F28-P81",
+      "target": "Method:lstm",
+      "rel": "USES"
+    },
+    {
+      "source": "F28-P82",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.835
+    },
+    {
+      "source": "F28-P83",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.955
+    },
+    {
+      "source": "F29",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.41
+    },
+    {
+      "source": "F29",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.365
+    },
+    {
+      "source": "F29",
+      "target": "F29-P84",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F29",
+      "target": "F29-P85",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F29",
+      "target": "F29-P86",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F29",
+      "target": "F30",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.8
+    },
+    {
+      "source": "F29",
+      "target": "F31",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.272
+    },
+    {
+      "source": "F29-P84",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.857
+    },
+    {
+      "source": "F29-P84",
+      "target": "Method:matrix factorisation",
+      "rel": "USES"
+    },
+    {
+      "source": "F29-P84",
+      "target": "Task:recommender systems",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F29-P85",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.979
+    },
+    {
+      "source": "F29-P85",
+      "target": "Task:anomaly detection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F29-P86",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.374
+    },
+    {
+      "source": "F29-P86",
+      "target": "Method:tree ensemble",
+      "rel": "USES"
+    },
+    {
+      "source": "F29-P86",
+      "target": "Task:dropout prediction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F30",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.54
+    },
+    {
+      "source": "F30",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.283
+    },
+    {
+      "source": "F30",
+      "target": "F30-P87",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F30",
+      "target": "F30-P88",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F30",
+      "target": "F30-P89",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F30",
+      "target": "F27",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.307
+    },
+    {
+      "source": "F30-P87",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.979
+    },
+    {
+      "source": "F30-P87",
+      "target": "Task:anomaly detection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F30-P88",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.374
+    },
+    {
+      "source": "F30-P88",
+      "target": "Method:tree ensemble",
+      "rel": "USES"
+    },
+    {
+      "source": "F30-P88",
+      "target": "Task:dropout prediction",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F30-P89",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.524
+    },
+    {
+      "source": "F31",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.948
+    },
+    {
+      "source": "F31",
+      "target": "F31-P90",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F31",
+      "target": "F31-P91",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F31",
+      "target": "F31-P92",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F31",
+      "target": "F23",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.474
+    },
+    {
+      "source": "F31-P90",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.916
+    },
+    {
+      "source": "F31-P90",
+      "target": "Task:community detection",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F31-P91",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F31-P91",
+      "target": "Method:matrix factorisation",
+      "rel": "USES"
+    },
+    {
+      "source": "F31-P91",
+      "target": "Task:recommender systems",
+      "rel": "ADDRESSES"
+    },
+    {
+      "source": "F31-P92",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.929
+    },
+    {
+      "source": "F31-P92",
+      "target": "Method:shap",
+      "rel": "USES"
+    },
+    {
+      "source": "F32",
+      "target": "T3",
+      "rel": "WORKS_ON",
+      "weight": 0.665
+    },
+    {
+      "source": "F32",
+      "target": "T0",
+      "rel": "WORKS_ON",
+      "weight": 0.224
+    },
+    {
+      "source": "F32",
+      "target": "F32-P93",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F32",
+      "target": "F32-P94",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F32",
+      "target": "F32-P95",
+      "rel": "PUBLISHED"
+    },
+    {
+      "source": "F32",
+      "target": "F29",
+      "rel": "COLLABORATION_CANDIDATE",
+      "weight": 0.241
+    },
+    {
+      "source": "F32-P93",
+      "target": "T0",
+      "rel": "RELATED_TO",
+      "weight": 0.673
+    },
+    {
+      "source": "F32-P93",
+      "target": "Method:shap",
+      "rel": "USES"
+    },
+    {
+      "source": "F32-P94",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 0.955
+    },
+    {
+      "source": "F32-P95",
+      "target": "T3",
+      "rel": "RELATED_TO",
+      "weight": 1.0
+    },
+    {
+      "source": "F32-P95",
+      "target": "Method:arima",
+      "rel": "USES"
+    },
+    {
+      "source": "F32-P95",
+      "target": "Method:lstm",
+      "rel": "USES"
+    }
+  ]
+}
